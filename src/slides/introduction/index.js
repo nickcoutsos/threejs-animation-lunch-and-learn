@@ -1,21 +1,5 @@
-import * as three from 'three'
-import * as viewer from '../viewer'
-import createAxes from '../axes'
-
-const box = new three.Mesh(
-  new three.BoxGeometry(1, 1, 1),
-  new three.MeshStandardMaterial({
-    name: 'primary',
-    color: 'whitesmoke',
-    emissive: 'white',
-    emissiveIntensity: 0.1,
-    roughness: 0.7,
-    metalness: 0.5
-  })
-)
-
-const axes = createAxes(3)
-const grid = new three.GridHelper(10, 10)
+import * as viewer from '../../viewer'
+import { box, grid, axes } from './components'
 
 box.position.set(0, .5, 0)
 axes.position.set(-5, 0, -5)
