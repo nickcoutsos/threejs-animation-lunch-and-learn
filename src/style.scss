@@ -1,0 +1,63 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  background-color: steelblue;
+
+  canvas {
+    display: block;
+  }
+}
+
+.slide {
+  pointer-events: none;
+  &.active {
+    pointer-events: auto;
+  }
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  padding: 7.5vh 10vw;
+  box-sizing: border-box;
+
+  width: 100vw;
+  height: 100vh;
+
+  transition: opacity 1s ease;
+  &:not(.active) {
+    opacity: 0;
+  }
+
+  h2 {
+    font-size: 72px;
+    margin: 10px 0;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  em {
+    font-family: serif;
+  }
+
+  h2 + ul {
+    margin: 0;
+  }
+}
+
+.fragment {
+  transition: opacity .5s ease;
+  &:not(.active) {
+    opacity: 0;
+  }
+}
+
+
