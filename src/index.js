@@ -12,9 +12,8 @@ Object.keys(slides).forEach(name => {
   }
 })
 
-slideshow.initialize()
 slideshow.events.on('slidechanged', ({ previousSlide, slide, state }) => {
-  const prevSlideName = previousSlide.dataset.slide
+  const prevSlideName = previousSlide && previousSlide.dataset.slide
   const nextSlideName = slide.dataset.slide
   if (prevSlideName && slides[prevSlideName]) {
     slides[prevSlideName].deactivate && slides[prevSlideName].deactivate(state)
@@ -28,3 +27,5 @@ slideshow.events.on('fragmentchanged', ({ slide, state, fragment }) => {
   const slideActions = slides[slide.dataset.slide] || {}
   slideActions.fragment && slideActions.fragment(state, fragment)
 })
+
+slideshow.initialize()

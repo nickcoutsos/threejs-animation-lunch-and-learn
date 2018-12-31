@@ -29,7 +29,6 @@ export const init = () => {
   directionalLight.position.set(0, 5, 5)
 
   camera.position.set(-5, -10, 10)
-  camera.up.set(0, 0, 1)
   camera.lookAt(new Vector3(0, 4, 0))
 
   scene.add(
