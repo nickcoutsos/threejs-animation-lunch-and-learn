@@ -2,6 +2,7 @@ import get from 'lodash/get'
 import * as viewer from './viewer'
 import * as slideshow from './slideshow'
 import slides from './slides'
+import animation from './animation'
 
 viewer.init()
 viewer.renderFrame()
@@ -27,17 +28,20 @@ slideshow.events.on('slidechanged', ({ previousSlide, slide, state }) => {
 
 slideshow.events.on('fragmentchanged', ({ slide, state, fragment, previousFragment }) => {
   const slideDetails = get(slides, slide.dataset.slide)
-  const nextAction = get(fragment, 'dataset.fragmentActivator')
-  const nextActivator = get(slideDetails, `fragmentActivators.${nextAction}.activate`)
+  const action = state.previousFragment > state.fragment ? 'reverse' : 'start'
+  const actionFragment = action === 'reverse' ? previousFragment : fragment
+  const transitionName = get(actionFragment, 'dataset.fragmentTransition')
+  const transition = get(slideDetails, `fragmentTransitions.${transitionName}`)
 
-  if (state.previousFragment > state.fragment) {
-    const prevAction = get(previousFragment, 'dataset.fragmentActivator')
-    const prevActivator = get(slideDetails, `fragmentActivators.${prevAction}.deactivate`)
-    prevActivator && prevActivator()
+  if (transition) {
+    const transitionAnimation = animation(
+      transition.render,
+      transition.duration,
+      transition.timing
+    )
+
+    transitionAnimation[action]()
   }
-
-  nextActivator && nextActivator()
-  viewer.renderFrame()
 })
 
 slideshow.initialize()
