@@ -1,4 +1,5 @@
 import { Object3D } from 'three'
+import animation from '../../animation'
 import * as viewer from '../../viewer'
 import { box, grid, axes } from './components'
 
@@ -24,19 +25,17 @@ export const deactivate = () => {
   wrapper.visible = false
 }
 
-export const fragmentTransitions = {
+export const fragments = {
   cube: {
-    duration: 0,
-    render: t => {
+    animation: animation(t => {
       box.visible = t > .5
       viewer.renderFrame()
-    }
+    }, 0)
   },
   grid: {
-    duration: 0,
-    render: t => {
+    animation: animation(t => {
       grid.visible = axes.visible = t > .5
       viewer.renderFrame()
-    }
+    }, 0)
   }
 }
