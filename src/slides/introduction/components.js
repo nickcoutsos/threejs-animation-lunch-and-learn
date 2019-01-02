@@ -1,9 +1,9 @@
-import { BoxGeometry, GridHelper, Mesh, MeshStandardMaterial } from 'three'
+import * as three from 'three'
 import createAxes from '../../axes'
 
-export const box = new Mesh(
-  new BoxGeometry(1, 1, 1),
-  new MeshStandardMaterial({
+export const box = new three.Mesh(
+  new three.BoxGeometry(1, 1, 1),
+  new three.MeshStandardMaterial({
     name: 'primary',
     color: 'whitesmoke',
     emissive: 'white',
@@ -16,4 +16,17 @@ export const box = new Mesh(
 box.castShadow = true
 
 export const axes = createAxes(3)
-export const grid = new GridHelper(10, 10)
+
+const plane = new three.Mesh(
+  new three.PlaneGeometry(10, 10),
+  new three.MeshStandardMaterial({
+    color: 'white',
+    opacity: 0.25,
+    transparent: true
+  })
+)
+
+plane.receiveShadow = true
+plane.rotation.x = -Math.PI/2
+
+export const grid = new three.GridHelper(10, 10).add(plane)

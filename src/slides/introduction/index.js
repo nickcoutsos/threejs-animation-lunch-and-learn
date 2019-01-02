@@ -28,19 +28,7 @@ export const fragmentTransitions = {
   cube: {
     duration: 0,
     render: t => {
-      if (t === 0) {
-        // The shadow map will only update if there is at least one visible
-        // object that casts a shadow. To be sure that this shadow will be
-        // cleared I have to render a frame of the box without a shadow before
-        // removing the box altogether.
-        box.castShadow = false
-        viewer.renderFrame()
-        box.visible = false
-      } else if (t === 1) {
-        box.visible = true
-        box.castShadow = true
-      }
-
+      box.visible = t > .5
       viewer.renderFrame()
     }
   },

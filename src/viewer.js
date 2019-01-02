@@ -1,11 +1,8 @@
-import { throttle } from 'lodash'
+import throttle from 'lodash/throttle'
 import {
   AmbientLight,
   DirectionalLight,
   PerspectiveCamera,
-  Mesh,
-  PlaneGeometry,
-  ShadowMaterial,
   Scene,
   Vector3,
   WebGLRenderer,
@@ -17,11 +14,6 @@ const container = document.querySelector('#app')
 export const renderer = new WebGLRenderer({ antialias: true, alpha: true });
 export const camera = new PerspectiveCamera(75, 1, 0.1, 1000)
 export const scene = new Scene()
-
-const plane = new Mesh(
-  new PlaneGeometry(10, 10),
-  new ShadowMaterial({ opacity: 0.5 })
-)
 
 export const renderFrame = throttle(() => {
   renderer.render(scene, camera)
@@ -43,17 +35,13 @@ export const init = () => {
   directionalLight.shadow.mapSize.width = 1024
   directionalLight.shadow.mapSize.height = 1024
 
-  plane.rotation.x = -Math.PI/2
-  plane.receiveShadow = true
-
   camera.position.set(-5, -10, 10)
   camera.lookAt(new Vector3(0, 4, 0))
 
   scene.add(
     camera,
     directionalLight,
-    ambientLight,
-    plane
+    ambientLight
   )
 
   resize()
