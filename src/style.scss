@@ -8,7 +8,7 @@ html, body {
 #app {
   width: 100vw;
   height: 100vh;
-  background-color: ghostwhite;
+  background: linear-gradient(to top, lightsteelblue 0%, ghostwhite 55%);
 
   canvas {
     display: block;

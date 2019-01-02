@@ -37,5 +37,31 @@ export const fragments = {
       grid.visible = axes.visible = t > .5
       viewer.renderFrame()
     }, 0)
+  },
+  choppy: {
+    animation: animation(t => {
+      boxOrigin.position.x = Math.round(t * 5) + (t > .5 ? -5 : 0)
+      viewer.renderFrame()
+    }, {
+      duration: 2000,
+      repeat: true,
+      reverseOptions: {
+        duration: 0,
+        repeat: false
+      }
+    })
+  },
+  smoother: {
+    animation: animation(t => {
+      boxOrigin.position.x = Math.round(t * 5 * 2) / 2 + (t > .5 ? -5 : 0)
+      viewer.renderFrame()
+    }, {
+      duration: 2000,
+      repeat: true,
+      reverseOptions: {
+        duration: 0,
+        repeat: false
+      }
+    })
   }
 }
