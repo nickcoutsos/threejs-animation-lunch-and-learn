@@ -6,6 +6,8 @@ import slides from './slides'
 viewer.init()
 viewer.renderFrame()
 
+let activeAnimation;
+
 Object.keys(slides).forEach(name => {
   const slide = slides[name]
   if (slide.initialize) {
@@ -27,13 +29,23 @@ slideshow.events.on('slidechanged', ({ previousSlide, slide, state }) => {
 
 slideshow.events.on('fragmentchanged', ({ slide, state, fragment, previousFragment }) => {
   const slideDetails = get(slides, slide.dataset.slide)
-  const action = state.previousFragment > state.fragment ? 'reverse' : 'start'
-  const fragmentElement = action === 'reverse' ? previousFragment : fragment
+  const rollback = state.previousFragment > state.fragment
+  const fragmentElement = rollback ? previousFragment : fragment
   const fragmentName = get(fragmentElement, 'dataset.fragment')
   const fragmentDetails = get(slideDetails, `fragments.${fragmentName}`)
 
+  if (activeAnimation) {
+    activeAnimation.stop()
+  }
+
   if (fragmentDetails && fragmentDetails.animation) {
-    fragmentDetails.animation[action]()
+    activeAnimation = fragmentDetails.animation
+    if (!rollback) {
+      activeAnimation.start()
+    } else {
+      activeAnimation.stop()
+      activeAnimation.reverse()
+    }
   }
 })
 
