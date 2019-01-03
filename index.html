@@ -31,6 +31,55 @@
             </ul>
         </aside>
     </section>
+    <section class="slide" data-slide="tweening">
+      <h2>Tweening</h2>
+      <ul>
+        <li class="fragment" data-fragment="tweenedPositions">
+          We have values of a property at two points in time
+        </li>
+        <li class="fragment">
+          We can calculate the "in-be<em>tween</em>" values.
+        </li>
+        <li class="fragment">
+          Tweening allows us to define animations in more simple terms and use
+          interpolation to fill in the blanks.
+        </li>
+        <li class="fragment">
+          So what else can we tween?
+        </li>
+        <li class="fragment" data-fragment="tweenedRotations">
+          We can tween between rotations in the same way.
+        </li>
+        <li class="fragment" data-fragment="tweenedScales">
+          Scales too.
+        </li>
+        <li class="fragment">
+          Generally we can easily tween any two numeric, continuous values.
+        </li>
+      </ul>
+    </section>
+    <section class="slide" data-slide="tweeningContinued">
+      <h2>More Tweening:</h2>
+      <h3>What about material properties?</h3>
+      <ul>
+        <li class="fragment" data-fragment="tweenOpacity">
+          Opacity is pretty straightforward
+        </li>
+        <li class="fragment" data-fragment="tweenColour">
+          Colour twening, however...
+          <h2 class="overlay center">?</h2>
+          <ul class="bottom">
+            <li class="fragment" data-fragment="tweenColourRGB">
+              Option 1, RGB: individually interpolate each of the
+              colour's components.
+            </li>
+            <li class="fragment" data-fragment="tweenColourHSL">
+              Option 2, HSL: same idea, different colour model!
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
     <div id="app"></div>
     <script src="./src/index.js"></script>
   </body>

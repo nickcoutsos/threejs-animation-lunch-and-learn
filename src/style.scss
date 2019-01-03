@@ -64,4 +64,47 @@ html, body {
   }
 }
 
+.slide ul {
+  padding-left: 20px;
+}
 
+.slide li > p {
+  margin-top: 0;
+}
+
+.top-right {
+  position: absolute;
+  top: 7.5vh;
+  right: 10vw;
+}
+.bottom {
+  position: absolute;
+  bottom: 7.5vh;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 50%;
+  margin: 0 auto;
+}
+.center {
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+}
+
+[data-slide="tweeningContinued"] {
+  [data-fragment="tweenColour"] {
+    .overlay {
+      opacity: 0;
+      font-size: 144px;
+      font-weight: bold;
+      text-shadow:
+        5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    &.current .overlay {
+      opacity: 1;
+    }
+  }
+}
