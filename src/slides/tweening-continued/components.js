@@ -45,9 +45,9 @@ const opacityFull = new three.Mesh(
     metalness: 0.5
   })
 )
-const opacityZero = new three.Mesh(
-  new three.BoxGeometry(1, 1, 1),
-  new three.MeshStandardMaterial({
+const opacityZero = new three.LineSegments(
+  new three.EdgesGeometry(new three.BoxGeometry(1, 1, 1)),
+  new three.LineBasicMaterial({
     name: 'primary',
     color: 'dimgray',
     emissive: 'white',
