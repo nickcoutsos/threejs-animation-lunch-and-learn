@@ -2,6 +2,7 @@ import throttle from 'lodash/throttle'
 import {
   AmbientLight,
   DirectionalLight,
+  PointLight,
   PerspectiveCamera,
   Scene,
   Vector3,
@@ -28,12 +29,15 @@ export const init = () => {
 
   const ambientLight = new AmbientLight('powderblue', .8)
   const directionalLight = new DirectionalLight('white', 1)
+  const highlight = new PointLight('white', .5)
+
   ambientLight.name = 'ambient'
   directionalLight.position.set(5, 5, 5)
   directionalLight.castShadow = true
   directionalLight.lookAt(0, 0, 0)
   directionalLight.shadow.mapSize.width = 1024
   directionalLight.shadow.mapSize.height = 1024
+  highlight.position.set(-5, 5, 5)
 
   camera.position.set(-5, -10, 10)
   camera.lookAt(new Vector3(0, 4, 0))
@@ -41,7 +45,8 @@ export const init = () => {
   scene.add(
     camera,
     directionalLight,
-    ambientLight
+    ambientLight,
+    highlight
   )
 
   resize()
