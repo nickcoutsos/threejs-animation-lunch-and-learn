@@ -3,12 +3,26 @@ html, body {
   height: 100vh;
   margin: 0;
   padding: 0;
+
+  font-family: Avenir, sans-serif;
+  font-size: 140%;
+
+  color: white;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%),
+    url(assets/chalkboard.jpeg);
+
+  background-size: cover, cover;
+}
+
+em {
+  font-family: marker felt;
+  color: lawngreen;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to top, lightsteelblue 0%, ghostwhite 55%);
 
   canvas {
     display: block;
@@ -16,6 +30,10 @@ html, body {
 }
 
 .slide {
+   h2 {
+     font-family: Chalkduster, sans-serif;
+   }
+
   pointer-events: none;
   &.active {
     pointer-events: auto;
