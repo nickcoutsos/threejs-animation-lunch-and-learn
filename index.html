@@ -5,31 +5,29 @@
     <link rel="stylesheet" href="./src/style.scss">
   </head>
   <body>
+    <section class="slide">
+      <div class="center">
+        <h1>Welcome</h1>
+      </div>
+    </section>
     <section class="slide" data-slide="introduction">
-        <aside>
-            Introduction
-            <ul>
-                <li class="fragment" data-fragment="cube">Here's (a representation of) a box.</li>
-                <li class="fragment" data-fragment="grid">It exists in 3-dimensional space.</li>
-                <li class="fragment" data-fragment="choppy">
-                    We can animate its movement by drawing it repeatedly in
-                    different positions.
-                </li>
-                <li class="fragment" data-fragment="smoother">
-                    <p>
-                        By drawing it more frequently in more positions the
-                        movement is smoother and the animation nicer to watch.
-                    </p>
-
-                    <p>
-                        One way to ensure this is to keep a high framerate. We
-                        already do that here using <code>requestAnimationFrame()</code>
-                        so the other factor is to make sure the positions at
-                        which the box is rendered are continuous.
-                    </p>
-                </li>
-            </ul>
-        </aside>
+      <section class="top-right">
+        <h2>Introduction</h2>
+        <ul>
+          <li class="fragment" data-fragment="cube">Here's (a representation of) a box.</li>
+          <li class="fragment" data-fragment="grid">It exists in 3-dimensional space.</li>
+          <li class="fragment" data-fragment="choppy">We can animate its movement.</li>
+        </ul>
+      </section>
+      <section class="bottom fragment" data-fragment="smoother">
+        <p>
+          By drawing it more frequently in more positions the movement is
+          smoother and the animation nicer to watch.
+        </p>
+        <p>
+          See: <em><code>requestAnimationFrame()</code></em>
+        </p>
+      </section>
     </section>
     <section class="slide" data-slide="tweening">
       <h2>Tweening</h2>
