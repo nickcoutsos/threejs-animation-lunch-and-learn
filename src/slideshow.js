@@ -34,7 +34,12 @@ export const next = (slides, state) => {
     state.fragment++
     const previousFragment = fragments[state.previousFragment]
     const fragment = fragments[state.fragment]
-    fragment.classList.add('active')
+    const formerCurrent = document.querySelector('.fragment.current')
+    fragment.classList.add('active', 'current')
+
+    if (formerCurrent) {
+      formerCurrent.classList.remove('current')
+    }
 
     events.emit('fragmentchanged', {
       slide: slides[state.slide],
