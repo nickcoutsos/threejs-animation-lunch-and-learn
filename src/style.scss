@@ -21,16 +21,22 @@ em {
 }
 
 code {
-  padding: 3px;
+  padding: 8px;
   border: 2px solid darkslateblue;
   background-color: midnightblue;
   color: gold;
   border-radius: 4px;
 }
 
+p {
+  margin: 15px 0;
+}
+
 #app {
   width: 100vw;
   height: 100vh;
+
+  overflow: hidden;
 
   canvas {
     display: block;
@@ -59,7 +65,7 @@ code {
   width: 100vw;
   height: 100vh;
 
-  transition: opacity 1s ease;
+  transition: opacity 600ms ease;
   &:not(.active) {
     opacity: 0;
   }

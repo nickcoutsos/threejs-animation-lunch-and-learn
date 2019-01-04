@@ -19,6 +19,7 @@
   "dependencies": {
     "easing-utils": "0.0.7",
     "eventemitter3": "3.1.0",
+    "microlight": "0.0.7",
     "three": "0.99.0"
   }
 }

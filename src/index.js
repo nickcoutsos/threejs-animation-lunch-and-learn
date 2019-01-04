@@ -1,3 +1,4 @@
+import 'microlight'
 import get from 'lodash/get'
 import * as viewer from './viewer'
 import * as slideshow from './slideshow'

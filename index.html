@@ -131,10 +131,35 @@
           <p><code>const easeInQuad = t => Math.pow(t, 2)</code></p>
         </li>
         <li class="fragment" data-fragment="sinusoidal">
-          <p>You can compose whatever functions or expressions you like</p>
-          <p><code>const easeInOutSine = t => Math.sin(2*Math.PI*t)</code></p>
+          <p>Use whatever expressions you like</p>
+          <p><code>const easeInOutSine = t => (
+  Math.sin(2*Math.PI*t)
+)</code></p>
         </li>
       </ul>
+    </section>
+    <section class="slide" data-slide="timingFunctionExamples">
+      <h2>Timing functions: complified</h2>
+      <p>As long as you take a number and return a number...</p>
+      <div class="fragment" data-fragment="bounce">
+<pre><code style="display:block; width:50%; font-size: 80%;" class="microlight">const bounce = t => {
+  if (t < 1/2.75) {
+    return 7.5625*t*t
+  } else if (t < (2/2.75)) {
+    return 7.5625*(t-=(1.5/2.75))*t + .75;
+  } else if (t < (2.5/2.75)) {
+    return 7.5625*(t-=(2.25/2.75))*t + .9375
+  } else {
+    return 7.5625*(t-=(2.625/2.75))*t + .984375
+  }
+}</code></pre>
+      <p>... you can take it as far as you need to.</p>
+      </div>
+    </section>
+    <section class="slide">
+      <h2>Timing functions: simplified</h2>
+      <pre><code class="microlight">npm install easing-utils</code></pre>
+      <pre><code class="microlight">import { bounce } from 'easing-utils'</code></pre>
     </section>
     <div id="app"></div>
     <script src="./src/index.js"></script>
