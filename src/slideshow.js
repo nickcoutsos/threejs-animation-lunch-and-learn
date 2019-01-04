@@ -21,7 +21,7 @@ export const initialize = () => {
   })
 
   window.addEventListener('keyup', ({ key }) => {
-    if (key === 'ArrowRight') next(slides, state)
+    if (key === 'ArrowRight' || key === ' ') next(slides, state)
     else if (key === 'ArrowLeft') prev(slides, state)
   })
 }

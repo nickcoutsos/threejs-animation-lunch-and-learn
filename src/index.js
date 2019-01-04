@@ -25,6 +25,10 @@ function toggleFullScreen() {
 }
 
 slideshow.events.on('slidechanged', ({ previousSlide, slide, state }) => {
+  if (activeAnimation) {
+    activeAnimation.stop()
+  }
+
   const prevSlideName = previousSlide && previousSlide.dataset.slide
   const nextSlideName = slide.dataset.slide
   if (prevSlideName && slides[prevSlideName]) {
@@ -62,6 +66,12 @@ document.addEventListener('keypress', ({ key }) => {
   }
 })
 
-document.addEventListener('fullscreenchange', () => viewer.resize())
+document.addEventListener('fullscreenchange', () => {
+  viewer.resize()
+
+  const app = document.querySelector('#app')
+  app.style.height = 'calc(100vh + 1px)'
+  setTimeout(() => { app.style.height = null })
+})
 
 slideshow.initialize()
