@@ -61,8 +61,6 @@ document.addEventListener('keypress', ({ key }) => {
   }
 })
 
-document.addEventListener('fullscreenevent', () => {
-  setTimeout(() => viewer.resize())
-})
+document.addEventListener('fullscreenchange', () => viewer.resize())
 
 slideshow.initialize()
