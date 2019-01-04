@@ -25,7 +25,7 @@
           smoother and the animation nicer to watch.
         </p>
         <p>
-          See: <em><code>requestAnimationFrame()</code></em>
+          See: <code>requestAnimationFrame()</code>
         </p>
       </section>
     </section>
@@ -83,7 +83,56 @@
             <li class="fragment" data-fragment="tweenColourHSL">
               Option 2, HSL: same idea, different colour model!
             </li>
+            <!-- TODO: show snippet `Color.lerp()` and `Color.lerpHSL()` -->
           </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="slide" data-slide="time">
+      <h2>Time</h2>
+      <p class="fragment" data-fragment="fixedStep">
+        Thus far we've interpolated values linearly with a fixed number of steps.
+      </p>
+      <div class="bottom fragment" data-fragment="timeStep">
+        <p>
+          Pretend we have an infinite number of steps
+        </p>
+        <p class="fragment" data-fragment="timeStep">
+          Pretend that this set of steps is <em>time</em>. <span class="fragment" data-fragment="timeStep">Because it is.</span>
+        </p>
+      </div>
+    </section>
+    <section class="slide">
+      <h2>Timing functions</h2>
+      <p>Now our animated properties are functions of time.</p>
+      <p class="fragment">A timing function:</p>
+      <ul>
+        <li class="fragment">takes a continuous value in the range <code>[0,1]</code></li>
+        <li class="fragment">returns a scaled value we can apply to some property</li>
+      </ul>
+      <p class="fragment">
+        That input represents time, or, completed percentage of an animation
+        a known duration.
+      </p>
+      <p class="fragment">
+        Scaling property changes with respect to elapsed time means they are
+        animated independently of the framerate.
+      </p>
+    </section>
+    <section class="slide" data-slide="timingFunctionExamples">
+      <h2>Timing functions: examples</h2>
+      <ul>
+        <li class="fragment" data-fragment="linear">
+          <p>We've covered linear timing:</p>
+          <p><code>const linear = t => t</code></p>
+        </li>
+        <li class="fragment" data-fragment="quadratic">
+          <p>How about a quadratic scale?</p>
+          <p><code>const easeInQuad = t => Math.pow(t, 2)</code></p>
+        </li>
+        <li class="fragment" data-fragment="sinusoidal">
+          <p>You can compose whatever functions or expressions you like</p>
+          <p><code>const easeInOutSine = t => Math.sin(2*Math.PI*t)</code></p>
         </li>
       </ul>
     </section>
