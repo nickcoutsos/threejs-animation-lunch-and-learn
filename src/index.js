@@ -15,6 +15,14 @@ Object.keys(slides).forEach(name => {
   }
 })
 
+function toggleFullScreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen()
+  } else if (document.exitFullscreen) {
+    document.exitFullscreen()
+  }
+}
+
 slideshow.events.on('slidechanged', ({ previousSlide, slide, state }) => {
   const prevSlideName = previousSlide && previousSlide.dataset.slide
   const nextSlideName = slide.dataset.slide
@@ -46,6 +54,21 @@ slideshow.events.on('fragmentchanged', ({ slide, state, fragment, previousFragme
       activeAnimation.stop()
       activeAnimation.reverse()
     }
+  }
+})
+
+document.addEventListener('keypress', ({ key }) => {
+  if (key.toLowerCase() === 'f') {
+    toggleFullScreen()
+  }
+})
+
+document.addEventListener('fullscreenevent', () => {
+  viewer.resize()
+  if (document.fullScreenElement) {
+    localStorage.setItem('fullscreen', '1')
+  } else {
+    localStorage.removeItem('fullscreen')
   }
 })
 
