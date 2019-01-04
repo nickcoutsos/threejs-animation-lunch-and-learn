@@ -12,6 +12,10 @@ export default function (frame, options = {}) {
   }
 
   function start (playbackOptions) {
+    if (start_ && direction === 1) {
+      return
+    }
+
     direction = 1
     start_ = Date.now()
     activeOptions = Object.assign(
@@ -21,10 +25,18 @@ export default function (frame, options = {}) {
       playbackOptions
     )
 
+    if (active_) {
+      cancelAnimationFrame(active_)
+    }
+
     active_ = requestAnimationFrame(animate)
   }
 
   function reverse (playbackOptions) {
+    if (start_ && direction === -1) {
+      return
+    }
+
     direction = -1
     start_ = Date.now()
     activeOptions = Object.assign(
@@ -34,6 +46,10 @@ export default function (frame, options = {}) {
       options.reverseOptions,
       playbackOptions
     )
+
+    if (active_) {
+      cancelAnimationFrame(active_)
+    }
 
     active_ = requestAnimationFrame(animate)
   }
