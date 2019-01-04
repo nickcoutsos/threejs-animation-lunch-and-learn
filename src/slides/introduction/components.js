@@ -29,4 +29,4 @@ const plane = new three.Mesh(
 plane.receiveShadow = true
 plane.rotation.x = -Math.PI/2
 
-export const grid = new three.GridHelper(10, 10).add(plane)
+export const grid = new three.GridHelper(10, 10, 'lightgray').add(plane)
