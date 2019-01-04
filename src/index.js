@@ -62,12 +62,7 @@ document.addEventListener('keypress', ({ key }) => {
 })
 
 document.addEventListener('fullscreenevent', () => {
-  viewer.resize()
-  if (document.fullScreenElement) {
-    localStorage.setItem('fullscreen', '1')
-  } else {
-    localStorage.removeItem('fullscreen')
-  }
+  setTimeout(() => viewer.resize())
 })
 
 slideshow.initialize()
