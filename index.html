@@ -171,6 +171,43 @@
       <pre><code class="microlight">npm install easing-utils</code></pre>
       <pre><code class="microlight">import { bounce } from 'easing-utils'</code></pre>
     </section>
+
+    <section class="slide">
+      <h2>Part three dot js</h2>
+      <p>What is it?</p>
+      <ul>
+        <li>javascript library wrapping WebGL APIs</li>
+        <li>scenegraph-based rendering engine</li>
+        <li>math math math math math math math math</li>
+      </ul>
+      <!--
+        talk about the design/popularity of the library, the use of 'examples'
+        for code that should be packaged as modules, and aiming for quick setup
+        over packaging.
+      -->
+    </section>
+
+    <section class="slide">
+      <!-- todo: maybe replace this text with a tree visual of the scene graph -->
+      <h2><code>Object3D</code>s all the way down</h2>
+      <p>The scene graph is a hierarchy of objects</p>
+      <ul>
+        <li>its root is a <code>Scene</code> object</li>
+        <li>an object has a spatial transformation</li>
+        <li>an object may have renderable geometry</li>
+        <li>
+          <p>an object may have zero or more child objects</p>
+          <ul>
+            <li>object transformations are relative to the parent</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- todo: example - star projector unfolding -->
+
+    <!-- todo: example - keyboard layout transitions -->
+
     <div id="app"></div>
     <script src="./src/index.js"></script>
   </body>
