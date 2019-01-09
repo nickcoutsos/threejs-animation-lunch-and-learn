@@ -5,7 +5,6 @@ import {
   PointLight,
   PerspectiveCamera,
   Scene,
-  Vector3,
   WebGLRenderer,
   PCFSoftShadowMap
 } from 'three'
@@ -39,8 +38,8 @@ export const init = () => {
   directionalLight.shadow.mapSize.height = 1024
   highlight.position.set(-5, 5, 5)
 
-  camera.position.set(-5, -10, 10)
-  camera.lookAt(new Vector3(0, 4, 0))
+  camera.position.set(-2.5, 5, 5)
+  camera.lookAt(0, 0, 0)
 
   scene.add(
     camera,

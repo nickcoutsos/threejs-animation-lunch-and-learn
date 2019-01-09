@@ -16,8 +16,6 @@ axes.visible = false
 grid.visible = false
 
 export const activate = () => {
-  viewer.camera.position.set(-2.5, 5, 5)
-  viewer.camera.lookAt(0, 0, 0)
   wrapper.visible = true
 }
 
