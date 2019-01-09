@@ -6,9 +6,9 @@
   "scripts": {
     "clean": "rm -rf .cache/ dist/ build/",
     "start": "parcel --no-hmr index.html",
-    "prestart": "mkdir -p dist/",
+    "prestart": "mkdir -p dist/assets/ && cp -r src/assets/* dist/assets/",
     "build": "parcel build --public-url ./ --no-minify -d build index.html",
-    "prebuild": "mkdir -p build/"
+    "prebuild": "mkdir -p build/assets/ && cp -r src/assets/* build/assets/"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +20,6 @@
     "easing-utils": "0.0.7",
     "eventemitter3": "3.1.0",
     "microlight": "0.0.7",
-    "three": "0.99.0"
+    "three": "0.98.0"
   }
 }
