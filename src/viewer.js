@@ -1,4 +1,3 @@
-import throttle from 'lodash/throttle'
 import {
   AmbientLight,
   DirectionalLight,
@@ -15,9 +14,9 @@ export const renderer = new WebGLRenderer({ antialias: true, alpha: true });
 export const camera = new PerspectiveCamera(75, 1, 0.1, 1000)
 export const scene = new Scene()
 
-export const renderFrame = throttle(() => {
-  renderer.render(scene, camera)
-}, 16)
+export const renderFrame = () => {
+  renderer.render(scene, camera, null)
+}
 
 export const init = () => {
   renderer.shadowMap.enabled = true
