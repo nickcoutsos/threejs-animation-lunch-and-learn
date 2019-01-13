@@ -6,7 +6,7 @@
   },
   "geometries": [
     {
-      "uuid": "1F9EB61B-6640-4D06-84E2-C1B2361EB515",
+      "uuid": "07969B05-AF57-4882-B891-B322301ECB00",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -87,46 +87,7 @@
       }
     },
     {
-      "uuid": "0D8EE8E9-708E-4418-833E-A7E14845A2D2",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "8A0A14FD-D304-47EB-A5DE-AE5AF5664737",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "4E58C075-34E0-4109-B150-300E8ABE9D63",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136442065238953
-    },
-    {
-      "uuid": "547EB8C4-BD46-4A06-B3E5-A41D7981478D",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "0607375C-EFFE-4A21-AEF0-F8BBA3979894",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "92C6556C-9310-435A-8434-881A98CEA298",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "6ACF738D-B4F7-4DDC-B225-3EDBF4905559",
+      "uuid": "C753F394-CEC5-4727-929D-40518BA589B1",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -207,20 +168,20 @@
       }
     },
     {
-      "uuid": "DCC883E3-A37D-4890-B386-B326CB35DC83",
+      "uuid": "DA189B66-3AB6-4AE3-BCC4-BF0D40736CD8",
       "type": "CylinderGeometry",
       "radiusTop": 0.05,
       "radiusBottom": 0.05,
       "height": 0.7136441556356279
     },
     {
-      "uuid": "6E42C50A-2A69-4DDC-8F13-49E3A5E3E78D",
+      "uuid": "08173A10-D374-470B-9F9E-A7E913E3EDE0",
       "type": "IcosahedronGeometry",
       "radius": 0.048,
       "detail": 3
     },
     {
-      "uuid": "877222BE-56C1-4328-A1D1-E744DF947CA8",
+      "uuid": "E987838A-0131-4322-AAAE-3173FB33AF2B",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -301,72 +262,20 @@
       }
     },
     {
-      "uuid": "0FFD9ADD-3FA4-4660-B7DD-514040B33DAC",
+      "uuid": "05CF2E14-3A43-4634-A866-3AB8909AAC7D",
       "type": "CylinderGeometry",
       "radiusTop": 0.05,
       "radiusBottom": 0.05,
       "height": 0.713644155635628
     },
     {
-      "uuid": "EACB008F-2038-4AB0-AC07-95180B41DBCE",
+      "uuid": "5FAEC8AF-7A80-4810-9D96-6E3FA7086692",
       "type": "IcosahedronGeometry",
       "radius": 0.048,
       "detail": 3
     },
     {
-      "uuid": "92073AFA-3848-4B40-921D-FCC715EF7E80",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "DBC88C4C-D401-421B-828B-8E6102C41711",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "BCA755F8-D2CC-4904-8F4B-05EA7C196F22",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "5EDC89CC-DCFD-483E-B7BA-75A294D83C57",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "22D4609D-7EF8-4135-83E4-2D4CE978487F",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "A4EC9414-CD66-41C5-A74B-E711853B57D7",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "87BC0236-C6FC-49C5-B559-249BB7D9598F",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136442065238953
-    },
-    {
-      "uuid": "92E5A146-F041-4989-975B-C0C97C57CE31",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "F3E5258F-7F05-4EEA-A5C9-BF1B348A2D9A",
+      "uuid": "7695FAC6-7078-4769-958F-8D024C40CFEB",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -447,72 +356,20 @@
       }
     },
     {
-      "uuid": "BC43186D-C0EC-4C2C-AF97-D68BED1EED79",
+      "uuid": "10BC333C-AD4B-406A-B875-7527FAE6186B",
       "type": "CylinderGeometry",
       "radiusTop": 0.05,
       "radiusBottom": 0.05,
       "height": 0.7136442065238954
     },
     {
-      "uuid": "933391FE-AFB4-467C-B6DE-DA10C5153219",
+      "uuid": "81A87544-CE1B-4946-AEE9-46119B301571",
       "type": "IcosahedronGeometry",
       "radius": 0.048,
       "detail": 3
     },
     {
-      "uuid": "6C88558C-9B62-4EE5-A1DD-6F66BEDA6C02",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.713644155635628
-    },
-    {
-      "uuid": "393506FC-7162-4FC9-9CC7-60A34B18C5D9",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "B5886CD0-00D2-4367-B0F8-35F4320F223D",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "78F961EA-F9D9-41E0-9AD9-6BE28DD7FA1F",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "133EAD83-8506-4604-AF71-3A15588C3AD9",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.713644155635628
-    },
-    {
-      "uuid": "1F76D282-1D15-4F4A-83BD-9B854D644A9A",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "624CC1FB-057C-4368-B90E-5B9C36772AE2",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "EA6AB933-4665-4B82-BB67-A278FFC906D9",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "B120D7C3-AC38-4D7C-BA78-9C25ACD4574F",
+      "uuid": "A8469282-905F-440D-8AF2-AA761F3CF08E",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -593,72 +450,20 @@
       }
     },
     {
-      "uuid": "234FEF36-CB02-446C-BF7D-E091948528C4",
+      "uuid": "E7B50369-E389-4B90-B101-2D50034E2CC2",
       "type": "CylinderGeometry",
       "radiusTop": 0.05,
       "radiusBottom": 0.05,
       "height": 0.7136441556356279
     },
     {
-      "uuid": "59DA1BC6-767C-4A61-B7DD-B9362EA2176C",
+      "uuid": "F8B50559-1978-44EE-BB1F-6D3E7AC12B24",
       "type": "IcosahedronGeometry",
       "radius": 0.048,
       "detail": 3
     },
     {
-      "uuid": "B22916C1-F701-4103-B6D2-73C05D13F571",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "B8C0EF4E-7738-4BEF-8968-A772DF633F55",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "E39769C2-D09E-4F9C-A9C7-B55EFB2AE386",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136442065238953
-    },
-    {
-      "uuid": "2A7AD292-15D2-4F3E-AA7C-081EAF77F8F1",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "A7383E2F-A421-44A2-A65E-286CF3DE7146",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "066EC4C5-CB43-4ADE-A94C-636D2C830772",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "D63CD8AF-A8E7-4C9E-92A1-FA0EE3C0222F",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.713644155635628
-    },
-    {
-      "uuid": "B66A25F6-B5E7-4F0C-A2E1-A0E7D432878B",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "036D7D5E-0C55-457C-B126-EF5190EE1A69",
+      "uuid": "2A4B7A21-0186-4229-9ED0-25BCB6D67816",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -739,72 +544,20 @@
       }
     },
     {
-      "uuid": "2E8A2364-ADC2-4414-86F7-BA678EEA875A",
+      "uuid": "8CD3657A-78C6-4C23-8DF6-DE955FEF4571",
       "type": "CylinderGeometry",
       "radiusTop": 0.05,
       "radiusBottom": 0.05,
       "height": 0.713644155635628
     },
     {
-      "uuid": "119323B9-79FC-4904-B411-816F816E24A7",
+      "uuid": "74A2E4D0-1696-4D2C-8CFC-DB323095B6D1",
       "type": "IcosahedronGeometry",
       "radius": 0.048,
       "detail": 3
     },
     {
-      "uuid": "8E67F6E7-BBDA-4686-A05F-0DB66828BA13",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "2AE83C19-26F3-4CD6-8D62-2623E1799DEF",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "2048900E-C765-40D3-9F2F-2FEE64127858",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.713644155635628
-    },
-    {
-      "uuid": "00DF018A-511D-4893-B952-CAB878FD7EA0",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "76CAC22F-FCF6-4D6E-8948-ADB1AED77BF4",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136442065238953
-    },
-    {
-      "uuid": "9714C845-2BFA-4059-A4EE-E2FEF8DCB89E",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "3902A4C1-CF9E-41B6-B459-C48874293279",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "8300A761-F30A-4163-9071-DDDD0EA4D74D",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "7E480707-F303-4052-BC61-2AAF3E77B51C",
+      "uuid": "441A05F9-55FD-4802-BA0B-BED759B25413",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -885,59 +638,20 @@
       }
     },
     {
-      "uuid": "A465728E-CB84-4A19-BF2B-BEF9B14CE3C1",
+      "uuid": "BBB5C446-3B4C-482C-BB9F-398E7FCE1D29",
       "type": "CylinderGeometry",
       "radiusTop": 0.05,
       "radiusBottom": 0.05,
       "height": 0.7136441556356279
     },
     {
-      "uuid": "58B43FD7-105B-400E-8BDA-805EDAC1C184",
+      "uuid": "F6B617D6-CE90-4063-806C-D23195F49883",
       "type": "IcosahedronGeometry",
       "radius": 0.048,
       "detail": 3
     },
     {
-      "uuid": "BB76B2E2-FB00-4892-AE1C-33D70EE8BD66",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "6AD7F2AB-D1A6-422F-86E6-E8BB8F03A75E",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "A5283478-5090-4708-A39B-FDF33B556C45",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136442065238953
-    },
-    {
-      "uuid": "BC23B550-C7C8-446D-B757-A8239589E668",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "16C3B3A4-358F-4126-8092-BB8A1C20BD9B",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.713644155635628
-    },
-    {
-      "uuid": "85A2B22C-2547-4E7B-AAC4-69DA74583319",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "68624F04-C853-4D8C-A97C-F7F425841AC2",
+      "uuid": "10183E69-3336-464E-8F26-62590594045A",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -1018,20 +732,20 @@
       }
     },
     {
-      "uuid": "155F5306-FF86-40C1-B84E-BED554A29065",
+      "uuid": "AD22C3E2-E072-4A51-B269-CDBE2607DC4C",
       "type": "CylinderGeometry",
       "radiusTop": 0.05,
       "radiusBottom": 0.05,
       "height": 0.7136441556356279
     },
     {
-      "uuid": "3575CAD7-42DF-4AC8-9EF3-2421D811A8AC",
+      "uuid": "87A3F9B5-56DB-4C17-BE97-4B93507C86DD",
       "type": "IcosahedronGeometry",
       "radius": 0.048,
       "detail": 3
     },
     {
-      "uuid": "90D3D214-2564-4F2B-A33C-EB1BE7D38749",
+      "uuid": "157E0441-1657-411C-B7E6-791FBB762EAE",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -1106,72 +820,20 @@
       }
     },
     {
-      "uuid": "4A8A841A-8E9C-48C6-AC01-C432D52968D4",
+      "uuid": "26270BDC-837C-489D-BDB6-EE90547C11C0",
       "type": "CylinderGeometry",
       "radiusTop": 0.05,
       "radiusBottom": 0.05,
       "height": 0.7136442065238954
     },
     {
-      "uuid": "DCB18866-B791-4FF7-8A02-0C04866DB003",
+      "uuid": "CDA9F1B1-7317-404D-B0F0-1240973510E7",
       "type": "IcosahedronGeometry",
       "radius": 0.048,
       "detail": 3
     },
     {
-      "uuid": "ED00002E-5AF9-4DE0-81D0-6815AA3C4241",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.713644155635628
-    },
-    {
-      "uuid": "4857730A-88DA-451E-AD1F-E19300C146D6",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "A17A7881-8C2C-4C29-9573-CC891302B56F",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "ABD3DDE8-3C90-4ECC-BFBB-1AD395D9F373",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "F08E4B4A-A39C-428C-AAE4-2E7C09C30CB8",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.713644155635628
-    },
-    {
-      "uuid": "C93CCCD2-C947-4C71-94AC-96A431731E46",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "77580681-DE44-4743-8BED-A70C3BAEF7CD",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "56CA3BF2-69C3-414E-8D13-FD428E27B471",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "49C0A2BA-D2ED-4AA3-817E-8D5E6894730E",
+      "uuid": "8A6C4A19-CF73-4BE1-B1E7-CB1DE9EC99CF",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -1252,72 +914,20 @@
       }
     },
     {
-      "uuid": "2BE86958-9C2C-41BA-B0A1-9F9806B32F5D",
+      "uuid": "532494D1-178D-41FE-9020-5274118C45B2",
       "type": "CylinderGeometry",
       "radiusTop": 0.05,
       "radiusBottom": 0.05,
       "height": 0.713644155635628
     },
     {
-      "uuid": "91D282EE-8268-41A9-8831-222A8C347FAC",
+      "uuid": "AE70967C-54C5-41DA-BC14-F75659390228",
       "type": "IcosahedronGeometry",
       "radius": 0.048,
       "detail": 3
     },
     {
-      "uuid": "416B745A-0138-43C1-80A1-ECFCC1074E7C",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "5A432BB0-0628-4DD3-86F2-A55E317FE309",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "AAB146CF-32F0-4916-BC7A-F0A8706C668E",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "8207C59F-7F15-4305-A579-9AA47B8E2D33",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "C417451A-A3B6-48B0-8C59-65E966322451",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136442065238953
-    },
-    {
-      "uuid": "CAC7705D-E40D-4AF4-9503-DEF7484CDEA2",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "C7150941-7579-41AE-93B9-06D386DA7E6B",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "F3A04415-6746-4D10-8547-C0F50D23EE94",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "D4CEE5E6-6F2F-4D48-BF40-99EFB354060C",
+      "uuid": "0F6C8729-CCAA-4351-8AC8-EFAA11B622E3",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -1398,72 +1008,20 @@
       }
     },
     {
-      "uuid": "EC2D8D41-E256-4EF3-B83A-D950A049BC8E",
+      "uuid": "9FF27EC4-B9D8-49F0-B60A-BDC79F889947",
       "type": "CylinderGeometry",
       "radiusTop": 0.05,
       "radiusBottom": 0.05,
       "height": 0.7136441556356279
     },
     {
-      "uuid": "42E0D20A-5844-44E4-861E-EF083525D650",
+      "uuid": "81E1F20E-C8A4-4800-B58E-21DCB38FF689",
       "type": "IcosahedronGeometry",
       "radius": 0.048,
       "detail": 3
     },
     {
-      "uuid": "BFDC78D3-9EA7-4163-8397-E18853357449",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136442065238953
-    },
-    {
-      "uuid": "8B56C6A8-6AFA-4A53-83D1-1AE6710DDD58",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "625557C2-1ABD-47FB-8BAE-D6836084BFA1",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "B3BE24E6-07D5-4028-8AFF-DBB269357145",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "2602FDB4-0797-4F94-B8CC-61117AEA63C5",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "395B3131-EC49-4961-B0CD-D04108FCCC29",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "7910244C-EFC3-403D-A83B-AE889663CB02",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "54761402-4CC6-4A95-B1C4-6B282B45F1D3",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "445F198C-9BF0-469B-824E-91D4771798B8",
+      "uuid": "4AC9195B-A89A-49AC-84E5-35621985C433",
       "type": "Geometry",
       "data": {
         "vertices": [
@@ -1544,66 +1102,14 @@
       }
     },
     {
-      "uuid": "95E78200-9DA5-4BAC-AD35-FE6ED99B3D83",
+      "uuid": "66664011-5C4A-4B16-BD5A-10CF251B5D1C",
       "type": "CylinderGeometry",
       "radiusTop": 0.05,
       "radiusBottom": 0.05,
       "height": 0.713644155635628
     },
     {
-      "uuid": "DE9EFB0D-A71C-4681-9993-21095982BC33",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "561AF4EA-EF29-4C50-BB6D-9C86591EEE5D",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136442065238953
-    },
-    {
-      "uuid": "EA9EA22B-F110-40D6-B29E-3C0518D6B673",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "E2CD58E2-6776-43D3-98E0-AC6E15EEC324",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.713644155635628
-    },
-    {
-      "uuid": "F77C6418-66E7-499C-8844-93721F93B5CB",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "6DBE18F7-03C6-44D4-BEF6-51C3780CAA4D",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "411012FA-6061-47F9-9180-7A5C8A17091B",
-      "type": "IcosahedronGeometry",
-      "radius": 0.048,
-      "detail": 3
-    },
-    {
-      "uuid": "18C374D2-CB19-4EC3-9752-782D1EFBA81D",
-      "type": "CylinderGeometry",
-      "radiusTop": 0.05,
-      "radiusBottom": 0.05,
-      "height": 0.7136441556356279
-    },
-    {
-      "uuid": "5E43B438-63EF-421E-9433-74FC8667596C",
+      "uuid": "DF2C32D3-AB6F-4896-B730-F0749CC4E5A3",
       "type": "IcosahedronGeometry",
       "radius": 0.048,
       "detail": 3
@@ -1611,7 +1117,7 @@
   ],
   "materials": [
     {
-      "uuid": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF",
+      "uuid": "02C111B0-8E8E-4D64-9306-394669A2E235",
       "type": "MeshStandardMaterial",
       "name": "regular",
       "color": 7833753,
@@ -1623,20 +1129,7 @@
       "depthWrite": true
     },
     {
-      "uuid": "803336E8-851C-4941-BDF3-D0D12B75E7A5",
-      "type": "MeshStandardMaterial",
-      "name": "neighour",
-      "color": 16766720,
-      "roughness": 0.9,
-      "metalness": 0.1,
-      "emissive": 0,
-      "side": 2,
-      "depthFunc": 3,
-      "depthTest": true,
-      "depthWrite": true
-    },
-    {
-      "uuid": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828",
+      "uuid": "2840726D-6655-42E4-8EB1-42B1E44F8C7E",
       "type": "MeshStandardMaterial",
       "name": "active",
       "color": 14423100,
@@ -1650,7 +1143,7 @@
     }
   ],
   "object": {
-    "uuid": "30212A80-0D62-4469-B420-EC4012346C8C",
+    "uuid": "F9BFFEF8-D4F2-4EE6-9171-0F81FEFB05FA",
     "type": "Object3D",
     "matrix": [
       1,
@@ -1672,10 +1165,12 @@
     ],
     "children": [
       {
-        "uuid": "C8E9FA73-1DE5-47F9-98A3-E42AC1547650",
+        "uuid": "7C20B8F1-50AC-4DD9-BE7A-0AB49EC8FC68",
         "type": "Object3D",
         "name": "polygon-0",
         "userData": {
+          "isPolygon": true,
+          "depth": 1,
           "parent": null
         },
         "matrix": [
@@ -1698,7 +1193,7 @@
         ],
         "children": [
           {
-            "uuid": "0D03A9D6-D757-4A7F-B4E2-40D7B3762473",
+            "uuid": "4B013632-C34B-4697-B4D7-AD125DF9FF19",
             "type": "Mesh",
             "matrix": [
               1,
@@ -1718,265 +1213,13 @@
               0,
               1
             ],
-            "geometry": "1F9EB61B-6640-4D06-84E2-C1B2361EB515",
-            "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
-          },
-          {
-            "uuid": "03EC47B2-93DE-45B6-8F2A-3173E5DAB1A8",
-            "type": "Object3D",
-            "matrix": [
-              0.3454914824486278,
-              -0.8090170069605287,
-              0.4755282515309446,
-              0,
-              0.8090170069605287,
-              0,
-              -0.5877852349699061,
-              0,
-              0.4755282515309446,
-              0.5877852349699061,
-              0.6545085175513723,
-              0,
-              0,
-              0.7946544527910849,
-              0.6070619906120015,
-              1
-            ],
-            "children": [
-              {
-                "uuid": "543F7D8C-05F6-4CA1-A5CD-C069210D35F3",
-                "type": "Mesh",
-                "userData": {
-                  "isElement": true,
-                  "edgeId": "0-1"
-                },
-                "matrix": [
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0.35682207781781394,
-                  0,
-                  1
-                ],
-                "geometry": "0D8EE8E9-708E-4418-833E-A7E14845A2D2",
-                "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-              },
-              {
-                "uuid": "4E5C0497-7946-4CB6-929E-355097681B15",
-                "type": "Mesh",
-                "userData": {
-                  "vertex": {
-                    "x": 0,
-                    "y": 0.7946544527910849,
-                    "z": 0.6070619906120015
-                  },
-                  "isElement": true
-                },
-                "matrix": [
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1
-                ],
-                "geometry": "8A0A14FD-D304-47EB-A5DE-AE5AF5664737",
-                "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-              }
-            ]
-          },
-          {
-            "uuid": "A721301A-3089-4C97-8FFA-89D3F8EFCDAC",
-            "type": "Object3D",
-            "matrix": [
-              2.220446049250313e-16,
-              0.9999999999999998,
-              0,
-              0,
-              -0.9999999999999998,
-              2.220446049250313e-16,
-              0,
-              0,
-              0,
-              0,
-              1,
-              0,
-              0.35682210326194763,
-              0.7946544633132687,
-              -0.49112343697539546,
-              1
-            ],
-            "children": [
-              {
-                "uuid": "0F2D0895-2BC4-44F0-B1F5-A9B3591F10EF",
-                "type": "Mesh",
-                "userData": {
-                  "isElement": true,
-                  "edgeId": "3-4"
-                },
-                "matrix": [
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0.35682210326194763,
-                  0,
-                  1
-                ],
-                "geometry": "4E58C075-34E0-4109-B150-300E8ABE9D63",
-                "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-              },
-              {
-                "uuid": "5A84D8A7-7B0B-4BF5-8814-66B16066EAD1",
-                "type": "Mesh",
-                "userData": {
-                  "vertex": {
-                    "x": 0.35682210326194763,
-                    "y": 0.7946544633132687,
-                    "z": -0.49112343697539546
-                  },
-                  "isElement": true
-                },
-                "matrix": [
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1
-                ],
-                "geometry": "547EB8C4-BD46-4A06-B3E5-A41D7981478D",
-                "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-              }
-            ]
-          },
-          {
-            "uuid": "D95EB00A-2CDB-4B65-8E56-672ABB00035F",
-            "type": "Object3D",
-            "matrix": [
-              0.9045085100364678,
-              0.309016971306718,
-              0.29389261085646917,
-              0,
-              -0.309016971306718,
-              -1.4744300447233627e-8,
-              0.9510565237904752,
-              0,
-              0.29389261085646917,
-              -0.9510565237904752,
-              0.09549147521923174,
-              0,
-              -0.35682210326194763,
-              0.7946544633132687,
-              -0.49112343697539546,
-              1
-            ],
-            "children": [
-              {
-                "uuid": "26FCF6E3-D663-4D79-A3A3-3B98A0DCFE0C",
-                "type": "Mesh",
-                "userData": {
-                  "isElement": true,
-                  "edgeId": "2-4"
-                },
-                "matrix": [
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0.35682207781781394,
-                  0,
-                  1
-                ],
-                "geometry": "0607375C-EFFE-4A21-AEF0-F8BBA3979894",
-                "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-              },
-              {
-                "uuid": "42CC09B6-5C36-462C-B9AE-11B53DC038FF",
-                "type": "Mesh",
-                "userData": {
-                  "vertex": {
-                    "x": -0.35682210326194763,
-                    "y": 0.7946544633132687,
-                    "z": -0.49112343697539546
-                  },
-                  "isElement": true
-                },
-                "matrix": [
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1
-                ],
-                "geometry": "92C6556C-9310-435A-8434-881A98CEA298",
-                "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-              }
-            ]
+            "geometry": "07969B05-AF57-4882-B891-B322301ECB00",
+            "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
           }
         ]
       },
       {
-        "uuid": "F25BA22A-0B1B-4095-AF5E-E5BA94489195",
+        "uuid": "4C0C1544-9B73-47A0-960A-D019BED6DAFA",
         "type": "Object3D",
         "userData": {
           "isPivot": true,
@@ -2006,9 +1249,13 @@
         ],
         "children": [
           {
-            "uuid": "BDF70054-260F-4FDE-A67C-B0CC178C7E09",
+            "uuid": "E6A7A5DB-E242-46FB-9A10-495D746ADDC3",
             "type": "Object3D",
             "name": "polygon-1",
+            "userData": {
+              "isPolygon": true,
+              "depth": 2
+            },
             "matrix": [
               1,
               0,
@@ -2029,7 +1276,7 @@
             ],
             "children": [
               {
-                "uuid": "3F416F4C-A3D2-4DC5-A873-CC63C2F23382",
+                "uuid": "852EFF96-003F-4205-801B-F234FF736A62",
                 "type": "Mesh",
                 "matrix": [
                   1,
@@ -2049,11 +1296,11 @@
                   0,
                   1
                 ],
-                "geometry": "6ACF738D-B4F7-4DDC-B225-3EDBF4905559",
-                "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
+                "geometry": "C753F394-CEC5-4727-929D-40518BA589B1",
+                "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
               },
               {
-                "uuid": "CADDC7D1-C8F0-4187-94D8-77222825292E",
+                "uuid": "554AA2C8-5B4F-4CA6-A8C2-5D6FE95447C5",
                 "type": "Object3D",
                 "matrix": [
                   0.9045085100364678,
@@ -2075,7 +1322,7 @@
                 ],
                 "children": [
                   {
-                    "uuid": "1604E65A-4E0A-4047-B048-15E8C5565110",
+                    "uuid": "898E72C5-32E0-4C73-A030-C874AC9C119D",
                     "type": "Mesh",
                     "userData": {
                       "isElement": true,
@@ -2099,11 +1346,11 @@
                       0,
                       1
                     ],
-                    "geometry": "DCC883E3-A37D-4890-B386-B326CB35DC83",
-                    "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                    "geometry": "DA189B66-3AB6-4AE3-BCC4-BF0D40736CD8",
+                    "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                   },
                   {
-                    "uuid": "8BB9BC7D-652C-4F61-9CB4-6E6BA6E1D252",
+                    "uuid": "F4B1A7F4-EA3B-47C2-B57A-6799827F7AA4",
                     "type": "Mesh",
                     "userData": {
                       "vertex": {
@@ -2131,15 +1378,15 @@
                       0,
                       1
                     ],
-                    "geometry": "6E42C50A-2A69-4DDC-8F13-49E3A5E3E78D",
-                    "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                    "geometry": "08173A10-D374-470B-9F9E-A7E913E3EDE0",
+                    "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                   }
                 ]
               }
             ]
           },
           {
-            "uuid": "ED751204-3A2C-42C1-91B6-3584D101FA71",
+            "uuid": "D31ABBB5-8F82-4558-B8AE-1BC05026E0C1",
             "type": "Object3D",
             "userData": {
               "isPivot": true,
@@ -2169,9 +1416,13 @@
             ],
             "children": [
               {
-                "uuid": "EB8D0CEA-F202-4940-B602-7A776577524A",
+                "uuid": "280A30B5-7147-4A25-99C1-68559364DF56",
                 "type": "Object3D",
                 "name": "polygon-9",
+                "userData": {
+                  "isPolygon": true,
+                  "depth": 3
+                },
                 "matrix": [
                   1,
                   0,
@@ -2192,7 +1443,7 @@
                 ],
                 "children": [
                   {
-                    "uuid": "42F3E2B4-C729-4B16-BC54-058C86748A87",
+                    "uuid": "68C8F888-61B3-4012-878C-183FA1D9CCCE",
                     "type": "Mesh",
                     "matrix": [
                       1,
@@ -2212,11 +1463,11 @@
                       0,
                       1
                     ],
-                    "geometry": "877222BE-56C1-4328-A1D1-E744DF947CA8",
-                    "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
+                    "geometry": "E987838A-0131-4322-AAAE-3173FB33AF2B",
+                    "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
                   },
                   {
-                    "uuid": "B2CEC422-ADCA-456A-A561-A692A0770881",
+                    "uuid": "8CBBFDC5-98AF-4810-B4ED-3151B3BF8B64",
                     "type": "Object3D",
                     "matrix": [
                       0.8649123906335761,
@@ -2238,7 +1489,7 @@
                     ],
                     "children": [
                       {
-                        "uuid": "352A5004-B9FC-4F20-A910-94213B0A03D3",
+                        "uuid": "3581D461-1ED2-4A2A-B09D-483F61561787",
                         "type": "Mesh",
                         "userData": {
                           "isElement": true,
@@ -2262,11 +1513,11 @@
                           0,
                           1
                         ],
-                        "geometry": "0FFD9ADD-3FA4-4660-B7DD-514040B33DAC",
-                        "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                        "geometry": "05CF2E14-3A43-4634-A866-3AB8909AAC7D",
+                        "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                       },
                       {
-                        "uuid": "1DFAABD2-EB38-4B83-B6A1-AC3ECF684B58",
+                        "uuid": "6114B8F2-DDE2-4365-8296-DD1922F91EB4",
                         "type": "Mesh",
                         "userData": {
                           "vertex": {
@@ -2294,344 +1545,8 @@
                           0,
                           1
                         ],
-                        "geometry": "EACB008F-2038-4AB0-AC07-95180B41DBCE",
-                        "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "3545AC03-56F8-41F7-AA1F-036699D2CDB1",
-                    "type": "Object3D",
-                    "matrix": [
-                      -0.3800367104731688,
-                      -0.8090170069605289,
-                      0.44840113864859965,
-                      0,
-                      0.8090170069605289,
-                      -0.5257310819456658,
-                      -0.26286557767206314,
-                      0,
-                      0.44840113864859965,
-                      0.26286557767206314,
-                      0.8543056285275029,
-                      0,
-                      0,
-                      0.18759242115970598,
-                      0.9822469360145359,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "9282E5A1-D48E-4216-99DC-5C75F990E595",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "17-19"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682207781781394,
-                          0,
-                          1
-                        ],
-                        "geometry": "92073AFA-3848-4B40-921D-FCC715EF7E80",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "16CFDB77-46C7-44AB-BE25-963FB5A50CFA",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0,
-                            "y": 0.18759242115970598,
-                            "z": 0.9822469360145359
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "DBC88C4C-D401-421B-828B-8E6102C41711",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "6E6282D8-D6BA-474E-9F92-65C3C14F314B",
-                    "type": "Object3D",
-                    "matrix": [
-                      0.8361441377073664,
-                      -0.4999999938930507,
-                      0.22552824010432454,
-                      0,
-                      0.4999999938930507,
-                      0.5257311541687206,
-                      -0.6881909325495172,
-                      0,
-                      0.22552824010432454,
-                      0.6881909325495172,
-                      0.6895870164613542,
-                      0,
-                      0.5773502588272095,
-                      -0.18759249290681368,
-                      0.7946544527910849,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "36086BC6-AD41-4541-8381-5B041C378088",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "5-19"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682207781781394,
-                          0,
-                          1
-                        ],
-                        "geometry": "BCA755F8-D2CC-4904-8F4B-05EA7C196F22",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "D456700F-0099-483E-9D38-C258EBE521BD",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0.5773502588272095,
-                            "y": -0.18759249290681368,
-                            "z": 0.7946544527910849
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "5EDC89CC-DCFD-483E-B7BA-75A294D83C57",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "4D9ED8A8-AE86-48F1-A81C-567AC5EC97F1",
-                    "type": "Object3D",
-                    "matrix": [
-                      0.3454914824486278,
-                      0.8090170069605287,
-                      0.4755282515309446,
-                      0,
-                      -0.8090170069605287,
-                      0,
-                      0.5877852349699061,
-                      0,
-                      0.4755282515309446,
-                      -0.5877852349699061,
-                      0.6545085175513723,
-                      0,
-                      0.5773502588272095,
-                      0.7946544527910849,
-                      0.18759249290681368,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "E90518C8-6FF6-461C-B673-FF5EBFFCDDAE",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "0-1"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682207781781394,
-                          0,
-                          1
-                        ],
-                        "geometry": "22D4609D-7EF8-4135-83E4-2D4CE978487F",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "D2B3DAC4-994E-4CF9-90BE-80C975E63171",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0.5773502588272095,
-                            "y": 0.7946544527910849,
-                            "z": 0.18759249290681368
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "A4EC9414-CD66-41C5-A74B-E711853B57D7",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "60026548-E198-43C2-A640-C80B06995AE2",
-                    "type": "Object3D",
-                    "matrix": [
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      -0.8506508230317318,
-                      0.5257310883668915,
-                      0,
-                      0,
-                      -0.5257310883668915,
-                      -0.8506508230317318,
-                      0,
-                      0,
-                      0.7946544527910849,
-                      0.6070619906120015,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "CE551D15-8DD5-44FB-8FAA-D10689FEDA45",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "0-17"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682210326194763,
-                          0,
-                          1
-                        ],
-                        "geometry": "87BC0236-C6FC-49C5-B559-249BB7D9598F",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "46DA9003-83FE-405F-8567-D6C5A3CB4B66",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0,
-                            "y": 0.7946544527910849,
-                            "z": 0.6070619906120015
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "92E5A146-F041-4989-975B-C0C97C57CE31",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
+                        "geometry": "5FAEC8AF-7A80-4810-9D96-6E3FA7086692",
+                        "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                       }
                     ]
                   }
@@ -2640,7 +1555,7 @@
             ]
           },
           {
-            "uuid": "27EB0929-E6C4-4409-9A21-AF4280EB585D",
+            "uuid": "F0387912-BC7E-4BC8-AD67-59B4870AF18E",
             "type": "Object3D",
             "userData": {
               "isPivot": true,
@@ -2670,9 +1585,13 @@
             ],
             "children": [
               {
-                "uuid": "67178A46-2CDA-408E-BD3D-67A29931B49D",
+                "uuid": "9FA04A1E-2B81-4E77-BFDE-7942815320CF",
                 "type": "Object3D",
                 "name": "polygon-10",
+                "userData": {
+                  "isPolygon": true,
+                  "depth": 3
+                },
                 "matrix": [
                   1,
                   0,
@@ -2693,7 +1612,7 @@
                 ],
                 "children": [
                   {
-                    "uuid": "11171D38-2A96-441A-B8A5-9D0DAB1B448A",
+                    "uuid": "6DB2E33E-C36A-4FEB-AD83-04E0777E14EE",
                     "type": "Mesh",
                     "matrix": [
                       1,
@@ -2713,11 +1632,11 @@
                       0,
                       1
                     ],
-                    "geometry": "F3E5258F-7F05-4EEA-A5C9-BF1B348A2D9A",
-                    "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
+                    "geometry": "7695FAC6-7078-4769-958F-8D024C40CFEB",
+                    "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
                   },
                   {
-                    "uuid": "828174A3-BA17-4182-A82B-57DB0752E8DC",
+                    "uuid": "4D5F7254-AD29-470D-87BB-D4B78213B28D",
                     "type": "Object3D",
                     "matrix": [
                       1,
@@ -2739,7 +1658,7 @@
                     ],
                     "children": [
                       {
-                        "uuid": "57AC3CCF-74D1-479C-8E0B-7CA5A21BE485",
+                        "uuid": "178314F3-F7F3-42CD-B14B-D93641089698",
                         "type": "Mesh",
                         "userData": {
                           "isElement": true,
@@ -2763,11 +1682,11 @@
                           0,
                           1
                         ],
-                        "geometry": "BC43186D-C0EC-4C2C-AF97-D68BED1EED79",
-                        "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                        "geometry": "10BC333C-AD4B-406A-B875-7527FAE6186B",
+                        "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                       },
                       {
-                        "uuid": "D3B4033E-01D2-4072-823E-EF923A0F58C7",
+                        "uuid": "92EEAF8D-9060-4597-B5FB-4288D8C1A241",
                         "type": "Mesh",
                         "userData": {
                           "vertex": {
@@ -2795,344 +1714,8 @@
                           0,
                           1
                         ],
-                        "geometry": "933391FE-AFB4-467C-B6DE-DA10C5153219",
-                        "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "6AE47EEB-21E9-4488-A6B6-97392C609F72",
-                    "type": "Object3D",
-                    "matrix": [
-                      0.36061601125831244,
-                      0.30901697130671757,
-                      -0.8800367059779766,
-                      0,
-                      -0.30901697130671757,
-                      -0.8506507978976683,
-                      -0.42532544184480897,
-                      0,
-                      -0.8800367059779766,
-                      0.42532544184480897,
-                      -0.21126680915598084,
-                      0,
-                      0.5773502588272095,
-                      -0.18759249290681368,
-                      0.7946544527910849,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "082D971C-31A2-4077-BB4A-D796D5DC40A5",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "18-19"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.356822077817814,
-                          0,
-                          1
-                        ],
-                        "geometry": "6C88558C-9B62-4EE5-A1DD-6F66BEDA6C02",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "CE544A10-7364-4AB1-93B6-1B624D8AA313",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0.5773502588272095,
-                            "y": -0.18759249290681368,
-                            "z": 0.7946544527910849
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "393506FC-7162-4FC9-9CC7-60A34B18C5D9",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "E4FE9C78-DE00-44E1-808E-B9AB42629C52",
-                    "type": "Object3D",
-                    "matrix": [
-                      0.9045085128523782,
-                      -0.30901697130671796,
-                      0.2938926021899874,
-                      0,
-                      0.30901697130671796,
-                      1.4744300447233627e-8,
-                      -0.9510565237904752,
-                      0,
-                      0.2938926021899874,
-                      0.9510565237904752,
-                      0.09549150189192224,
-                      0,
-                      0.35682210326194763,
-                      -0.7946544633132687,
-                      0.49112343697539546,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "63CDEFED-DA99-4D24-A69D-674F3EB2019F",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "8-18"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682207781781394,
-                          0,
-                          1
-                        ],
-                        "geometry": "B5886CD0-00D2-4367-B0F8-35F4320F223D",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "715D2666-AE50-4A15-B48F-18DC9754B884",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0.35682210326194763,
-                            "y": -0.7946544633132687,
-                            "z": 0.49112343697539546
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "78F961EA-F9D9-41E0-9AD9-6BE28DD7FA1F",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "9515924A-AC77-4C37-BBD4-29FFFE541FFF",
-                    "type": "Object3D",
-                    "matrix": [
-                      0.8649123906335761,
-                      -0.4999999938930508,
-                      0.04389262620830145,
-                      0,
-                      0.4999999938930508,
-                      0.8506508114665638,
-                      -0.16245985060385143,
-                      0,
-                      0.04389262620830145,
-                      0.16245985060385143,
-                      0.9857384208329878,
-                      0,
-                      0.5773502588272095,
-                      -0.7946544527910849,
-                      -0.18759249290681368,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "E218C6B6-6161-411A-9B79-0FA82D0B3F26",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "6-8"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.356822077817814,
-                          0,
-                          1
-                        ],
-                        "geometry": "133EAD83-8506-4604-AF71-3A15588C3AD9",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "2E8A767C-5E50-4E3C-9655-1C86F3145158",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0.5773502588272095,
-                            "y": -0.7946544527910849,
-                            "z": -0.18759249290681368
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "1F76D282-1D15-4F4A-83BD-9B854D644A9A",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "1BF5B1DF-EF63-4CAB-928B-E578D99D5252",
-                    "type": "Object3D",
-                    "matrix": [
-                      0.47287283132658475,
-                      0.49999999389305055,
-                      0.7255282844246174,
-                      0,
-                      -0.49999999389305055,
-                      -0.5257311541687206,
-                      0.6881909325495169,
-                      0,
-                      0.7255282844246174,
-                      -0.6881909325495169,
-                      0.0013960145046946204,
-                      0,
-                      0.9341723322868347,
-                      0.18759247270126725,
-                      0.3035310158156895,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "8F800A0D-C89F-4831-985F-B080522B3E33",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "5-19"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682207781781394,
-                          0,
-                          1
-                        ],
-                        "geometry": "624CC1FB-057C-4368-B90E-5B9C36772AE2",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "D1CD259F-8141-4628-8BD9-AF6738E9CC07",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0.9341723322868347,
-                            "y": 0.18759247270126725,
-                            "z": 0.3035310158156895
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "EA6AB933-4665-4B82-BB67-A278FFC906D9",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
+                        "geometry": "81A87544-CE1B-4946-AEE9-46119B301571",
+                        "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                       }
                     ]
                   }
@@ -3141,7 +1724,7 @@
             ]
           },
           {
-            "uuid": "8B0E53BE-BD61-4213-A26B-BFD770E9EE50",
+            "uuid": "3772967C-4283-4ADF-B2AE-B303BB279EED",
             "type": "Object3D",
             "userData": {
               "isPivot": true,
@@ -3171,9 +1754,13 @@
             ],
             "children": [
               {
-                "uuid": "44012E92-6C94-4797-B684-C7C9238B402A",
+                "uuid": "2F3A59BD-BA30-476B-9DFB-6E26E5615D6F",
                 "type": "Object3D",
                 "name": "polygon-2",
+                "userData": {
+                  "isPolygon": true,
+                  "depth": 3
+                },
                 "matrix": [
                   1,
                   0,
@@ -3194,7 +1781,7 @@
                 ],
                 "children": [
                   {
-                    "uuid": "459B1821-369A-42AF-8837-F31970295D8F",
+                    "uuid": "7118357A-DD90-44D8-B8A8-97514FA1E92E",
                     "type": "Mesh",
                     "matrix": [
                       1,
@@ -3214,11 +1801,11 @@
                       0,
                       1
                     ],
-                    "geometry": "B120D7C3-AC38-4D7C-BA78-9C25ACD4574F",
-                    "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
+                    "geometry": "A8469282-905F-440D-8AF2-AA761F3CF08E",
+                    "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
                   },
                   {
-                    "uuid": "AEAB52E8-4FDA-46E6-8722-2AECED7E9936",
+                    "uuid": "1C07AB84-8965-4A22-B2CC-4FB3E7C0C2C0",
                     "type": "Object3D",
                     "matrix": [
                       0.47287283132658475,
@@ -3240,7 +1827,7 @@
                     ],
                     "children": [
                       {
-                        "uuid": "06574313-D0A8-4116-99BA-903AFB2FF751",
+                        "uuid": "26F85F99-C50F-41F8-A7DB-7B65248CDA84",
                         "type": "Mesh",
                         "userData": {
                           "isElement": true,
@@ -3264,11 +1851,11 @@
                           0,
                           1
                         ],
-                        "geometry": "234FEF36-CB02-446C-BF7D-E091948528C4",
-                        "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                        "geometry": "E7B50369-E389-4B90-B101-2D50034E2CC2",
+                        "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                       },
                       {
-                        "uuid": "FF95F334-4BC2-4536-B381-794001306EFD",
+                        "uuid": "DDA273B6-DC08-46C1-860A-C53792F04879",
                         "type": "Mesh",
                         "userData": {
                           "vertex": {
@@ -3296,344 +1883,8 @@
                           0,
                           1
                         ],
-                        "geometry": "59DA1BC6-767C-4A61-B7DD-B9362EA2176C",
-                        "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "9F4554BE-DC50-4CF7-8E16-32F77EB087A6",
-                    "type": "Object3D",
-                    "matrix": [
-                      0.3454914824486278,
-                      0.8090170069605287,
-                      -0.4755282515309446,
-                      0,
-                      -0.8090170069605287,
-                      0,
-                      -0.5877852349699061,
-                      0,
-                      -0.4755282515309446,
-                      0.5877852349699061,
-                      0.6545085175513723,
-                      0,
-                      0.5773502588272095,
-                      -0.7946544527910849,
-                      -0.18759249290681368,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "E764F026-E2CB-4F4B-8090-985EDB2700DE",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "8-9"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682207781781394,
-                          0,
-                          1
-                        ],
-                        "geometry": "B22916C1-F701-4103-B6D2-73C05D13F571",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "BF0DA645-28AB-4C4E-AD4D-C49F3E71F6D0",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0.5773502588272095,
-                            "y": -0.7946544527910849,
-                            "z": -0.18759249290681368
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "B8C0EF4E-7738-4BEF-8968-A772DF633F55",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "4045D786-B06B-4EFA-B297-C954FF9B5F8C",
-                    "type": "Object3D",
-                    "matrix": [
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      0.8506508230317321,
-                      -0.525731088366892,
-                      0,
-                      0,
-                      0.525731088366892,
-                      0.8506508230317321,
-                      0,
-                      0,
-                      -0.7946544527910849,
-                      -0.6070619906120015,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "009946EE-54A3-4F9F-9DAC-D50776B021DE",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "9-10"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682210326194763,
-                          0,
-                          1
-                        ],
-                        "geometry": "E39769C2-D09E-4F9C-A9C7-B55EFB2AE386",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "60F9732A-B53C-4026-B809-81BDEE383AA4",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0,
-                            "y": -0.7946544527910849,
-                            "z": -0.6070619906120015
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "2A7AD292-15D2-4F3E-AA7C-081EAF77F8F1",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "727F6A0E-FCAC-4871-99F5-FA916F8F5690",
-                    "type": "Object3D",
-                    "matrix": [
-                      0.5710197391294409,
-                      -0.8090170069605286,
-                      -0.13938414534362625,
-                      0,
-                      0.8090170069605286,
-                      0.5257310819456659,
-                      0.26286557767206303,
-                      0,
-                      -0.13938414534362625,
-                      -0.26286557767206303,
-                      0.9547113428162249,
-                      0,
-                      0,
-                      -0.18759242115970598,
-                      -0.9822469360145359,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "3127FEDF-1EE8-44CA-A51C-581E87DDE61D",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "7-10"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682207781781394,
-                          0,
-                          1
-                        ],
-                        "geometry": "A7383E2F-A421-44A2-A65E-286CF3DE7146",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "365AD78D-01A7-4B1B-8DCB-2B0961D0887B",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0,
-                            "y": -0.18759242115970598,
-                            "z": -0.9822469360145359
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "066EC4C5-CB43-4ADE-A94C-636D2C830772",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "94F0459B-8685-4377-8393-DFDD16A90AA9",
-                    "type": "Object3D",
-                    "matrix": [
-                      -0.673929375498957,
-                      0.49999999389305005,
-                      0.5438926391729673,
-                      0,
-                      -0.49999999389305005,
-                      -0.8506508114665641,
-                      0.16245985060385118,
-                      0,
-                      0.5438926391729673,
-                      -0.16245985060385118,
-                      0.8232785640323929,
-                      0,
-                      0.9341723322868347,
-                      -0.18759247270126725,
-                      -0.3035310158156895,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "B3D49D59-D3A8-436D-8DA5-BDA1E2250441",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "6-8"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.356822077817814,
-                          0,
-                          1
-                        ],
-                        "geometry": "D63CD8AF-A8E7-4C9E-92A1-FA0EE3C0222F",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "5C7EBEF4-BC9A-4455-8D82-F173CC41C474",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0.9341723322868347,
-                            "y": -0.18759247270126725,
-                            "z": -0.3035310158156895
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "B66A25F6-B5E7-4F0C-A2E1-A0E7D432878B",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
+                        "geometry": "F8B50559-1978-44EE-BB1F-6D3E7AC12B24",
+                        "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                       }
                     ]
                   }
@@ -3642,7 +1893,7 @@
             ]
           },
           {
-            "uuid": "F46CAD2C-426D-4568-8A94-9EB0FF24154F",
+            "uuid": "15E38D23-12D8-48B7-B6D8-F932BE9A7D27",
             "type": "Object3D",
             "userData": {
               "isPivot": true,
@@ -3672,9 +1923,13 @@
             ],
             "children": [
               {
-                "uuid": "D2C5C181-CE94-469D-AFB1-BEE56356AAEF",
+                "uuid": "06FE5DAD-154A-4F1F-9ABC-CA3B1B65465D",
                 "type": "Object3D",
                 "name": "polygon-5",
+                "userData": {
+                  "isPolygon": true,
+                  "depth": 3
+                },
                 "matrix": [
                   1,
                   0,
@@ -3695,7 +1950,7 @@
                 ],
                 "children": [
                   {
-                    "uuid": "EF4524FA-17A1-4E5D-B7A4-495580777533",
+                    "uuid": "44E81434-6C5D-4282-9DE2-D695B2D9A4B7",
                     "type": "Mesh",
                     "matrix": [
                       1,
@@ -3715,11 +1970,11 @@
                       0,
                       1
                     ],
-                    "geometry": "036D7D5E-0C55-457C-B126-EF5190EE1A69",
-                    "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
+                    "geometry": "2A4B7A21-0186-4229-9ED0-25BCB6D67816",
+                    "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
                   },
                   {
-                    "uuid": "D98E72B9-A983-40AB-8BBD-191C6C97618F",
+                    "uuid": "F9B4F737-2A74-4162-AF5B-9D0AAE0846F8",
                     "type": "Object3D",
                     "matrix": [
                       0.36061601125831244,
@@ -3741,7 +1996,7 @@
                     ],
                     "children": [
                       {
-                        "uuid": "3A840BC7-E342-4E5B-9534-4C4CEBAF2814",
+                        "uuid": "FF21A9F2-A4D3-4644-B516-2613E4147751",
                         "type": "Mesh",
                         "userData": {
                           "isElement": true,
@@ -3765,11 +2020,11 @@
                           0,
                           1
                         ],
-                        "geometry": "2E8A2364-ADC2-4414-86F7-BA678EEA875A",
-                        "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                        "geometry": "8CD3657A-78C6-4C23-8DF6-DE955FEF4571",
+                        "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                       },
                       {
-                        "uuid": "45A1731A-90BE-4316-B0F7-F7B86906FED6",
+                        "uuid": "02223D54-A743-4690-A5FB-0318883D776A",
                         "type": "Mesh",
                         "userData": {
                           "vertex": {
@@ -3797,344 +2052,8 @@
                           0,
                           1
                         ],
-                        "geometry": "119323B9-79FC-4904-B411-816F816E24A7",
-                        "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "A987F9CE-76D4-41D0-9AAE-1F51DC0C52E4",
-                    "type": "Object3D",
-                    "matrix": [
-                      0.5710197391294409,
-                      0.8090170069605286,
-                      0.13938414534362625,
-                      0,
-                      -0.8090170069605286,
-                      0.5257310819456659,
-                      0.26286557767206303,
-                      0,
-                      0.13938414534362625,
-                      -0.26286557767206303,
-                      0.9547113428162249,
-                      0,
-                      0,
-                      -0.18759242115970598,
-                      -0.9822469360145359,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "DECADF9E-B37A-4A0D-92BA-3C9DBB8184FC",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "10-13"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682207781781394,
-                          0,
-                          1
-                        ],
-                        "geometry": "8E67F6E7-BBDA-4686-A05F-0DB66828BA13",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "940ABB1C-3DC5-4B78-8B9D-D1E19F7AFC46",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0,
-                            "y": -0.18759242115970598,
-                            "z": -0.9822469360145359
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "2AE83C19-26F3-4CD6-8D62-2623E1799DEF",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "41AD3719-3170-43E5-BAD2-F928C710C481",
-                    "type": "Object3D",
-                    "matrix": [
-                      0.948401130745976,
-                      -0.309016971306718,
-                      -0.07101976234948362,
-                      0,
-                      0.309016971306718,
-                      0.8506507978976687,
-                      0.42532544184480947,
-                      0,
-                      -0.07101976234948362,
-                      -0.42532544184480947,
-                      0.9022496671516927,
-                      0,
-                      -0.5773502588272095,
-                      0.18759249290681368,
-                      -0.7946544527910849,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "80D4BE15-FA74-4943-91A8-496FEF3C0A74",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "4-13"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.356822077817814,
-                          0,
-                          1
-                        ],
-                        "geometry": "2048900E-C765-40D3-9F2F-2FEE64127858",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "0AD5B3B1-ACDA-4BEB-9D93-3F0D429F72FF",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": -0.5773502588272095,
-                            "y": 0.18759249290681368,
-                            "z": -0.7946544527910849
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "00DF018A-511D-4893-B952-CAB878FD7EA0",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "D8163B60-C00B-4198-87BC-0CB3CDBE5488",
-                    "type": "Object3D",
-                    "matrix": [
-                      2.220446049250313e-16,
-                      -0.9999999999999998,
-                      0,
-                      0,
-                      0.9999999999999998,
-                      2.220446049250313e-16,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      -0.35682210326194763,
-                      0.7946544633132687,
-                      -0.49112343697539546,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "E893FD89-CEEB-423B-A864-A749DFB64764",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "3-4"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682210326194763,
-                          0,
-                          1
-                        ],
-                        "geometry": "76CAC22F-FCF6-4D6E-8948-ADB1AED77BF4",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "8DFDD821-60D8-442C-9806-CAC26E81C1F7",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": -0.35682210326194763,
-                            "y": 0.7946544633132687,
-                            "z": -0.49112343697539546
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "9714C845-2BFA-4059-A4EE-E2FEF8DCB89E",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      }
-                    ]
-                  },
-                  {
-                    "uuid": "F36CD93F-2DE3-43A9-9DC2-0100226042DF",
-                    "type": "Object3D",
-                    "matrix": [
-                      -0.3800367104731688,
-                      0.8090170069605289,
-                      -0.44840113864859965,
-                      0,
-                      -0.8090170069605289,
-                      -0.5257310819456658,
-                      -0.26286557767206314,
-                      0,
-                      -0.44840113864859965,
-                      0.26286557767206314,
-                      0.8543056285275029,
-                      0,
-                      0.5773502588272095,
-                      0.18759249290681368,
-                      -0.7946544527910849,
-                      1
-                    ],
-                    "children": [
-                      {
-                        "uuid": "FD24E1C2-9F95-42E0-883F-5FB3632B98B3",
-                        "type": "Mesh",
-                        "userData": {
-                          "isElement": true,
-                          "edgeId": "7-10"
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0.35682207781781394,
-                          0,
-                          1
-                        ],
-                        "geometry": "3902A4C1-CF9E-41B6-B459-C48874293279",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                      },
-                      {
-                        "uuid": "39C9A8E1-743F-41C9-8F93-69E068900A0C",
-                        "type": "Mesh",
-                        "userData": {
-                          "vertex": {
-                            "x": 0.5773502588272095,
-                            "y": 0.18759249290681368,
-                            "z": -0.7946544527910849
-                          },
-                          "isElement": true
-                        },
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1
-                        ],
-                        "geometry": "8300A761-F30A-4163-9071-DDDD0EA4D74D",
-                        "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
+                        "geometry": "74A2E4D0-1696-4D2C-8CFC-DB323095B6D1",
+                        "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                       }
                     ]
                   }
@@ -4145,7 +2064,7 @@
         ]
       },
       {
-        "uuid": "8FD340FA-E5D0-44D6-B74D-47731F5BE8DF",
+        "uuid": "A7E138C8-15B4-49D5-A434-82822DBBFE86",
         "type": "Object3D",
         "userData": {
           "isPivot": true,
@@ -4175,9 +2094,13 @@
         ],
         "children": [
           {
-            "uuid": "CA4597B7-A458-4FF7-9EB3-5F365AE24C38",
+            "uuid": "904E2D4C-19C1-4AC5-BFF8-62B9301A4C66",
             "type": "Object3D",
             "name": "polygon-7",
+            "userData": {
+              "isPolygon": true,
+              "depth": 2
+            },
             "matrix": [
               1,
               0,
@@ -4198,7 +2121,7 @@
             ],
             "children": [
               {
-                "uuid": "FA5911A0-77E1-4F57-92A9-EB57F813E612",
+                "uuid": "E210A9EB-8048-46F2-8777-5B5689ADF6AF",
                 "type": "Mesh",
                 "matrix": [
                   1,
@@ -4218,11 +2141,11 @@
                   0,
                   1
                 ],
-                "geometry": "7E480707-F303-4052-BC61-2AAF3E77B51C",
-                "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
+                "geometry": "441A05F9-55FD-4802-BA0B-BED759B25413",
+                "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
               },
               {
-                "uuid": "D403C8D8-F20E-42E9-8B50-89F356304859",
+                "uuid": "315BC575-77D9-42F2-A9E3-414ABD25975B",
                 "type": "Object3D",
                 "matrix": [
                   0.3454914824486278,
@@ -4244,7 +2167,7 @@
                 ],
                 "children": [
                   {
-                    "uuid": "168BFBF0-0ED9-495D-A352-890C2E0CC666",
+                    "uuid": "81238A0E-C236-4EED-BE5E-577FBE39300D",
                     "type": "Mesh",
                     "userData": {
                       "isElement": true,
@@ -4268,11 +2191,11 @@
                       0,
                       1
                     ],
-                    "geometry": "A465728E-CB84-4A19-BF2B-BEF9B14CE3C1",
-                    "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                    "geometry": "BBB5C446-3B4C-482C-BB9F-398E7FCE1D29",
+                    "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                   },
                   {
-                    "uuid": "8629BAF6-9B05-4154-A1E5-C5DECC42D2DA",
+                    "uuid": "F85E62ED-B150-4866-814B-E7F35C0246CD",
                     "type": "Mesh",
                     "userData": {
                       "vertex": {
@@ -4300,267 +2223,15 @@
                       0,
                       1
                     ],
-                    "geometry": "58B43FD7-105B-400E-8BDA-805EDAC1C184",
-                    "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
-                  }
-                ]
-              },
-              {
-                "uuid": "215A873D-29CD-4AC0-AB3F-FD617C462D2F",
-                "type": "Object3D",
-                "matrix": [
-                  0.5710197391294409,
-                  -0.8090170069605286,
-                  -0.13938414534362625,
-                  0,
-                  0.8090170069605286,
-                  0.5257310819456659,
-                  0.26286557767206303,
-                  0,
-                  -0.13938414534362625,
-                  -0.26286557767206303,
-                  0.9547113428162249,
-                  0,
-                  -0.5773502588272095,
-                  -0.18759249290681368,
-                  0.7946544527910849,
-                  1
-                ],
-                "children": [
-                  {
-                    "uuid": "CF1CA777-AC75-48E9-856C-B75FD92D441D",
-                    "type": "Mesh",
-                    "userData": {
-                      "isElement": true,
-                      "edgeId": "15-17"
-                    },
-                    "matrix": [
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0.35682207781781394,
-                      0,
-                      1
-                    ],
-                    "geometry": "BB76B2E2-FB00-4892-AE1C-33D70EE8BD66",
-                    "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                  },
-                  {
-                    "uuid": "9A1AF95A-C528-4FFC-9086-C03B7719080B",
-                    "type": "Mesh",
-                    "userData": {
-                      "vertex": {
-                        "x": -0.5773502588272095,
-                        "y": -0.18759249290681368,
-                        "z": 0.7946544527910849
-                      },
-                      "isElement": true
-                    },
-                    "matrix": [
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1
-                    ],
-                    "geometry": "6AD7F2AB-D1A6-422F-86E6-E8BB8F03A75E",
-                    "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                  }
-                ]
-              },
-              {
-                "uuid": "E64B4F5F-F6E8-42AE-8FED-9EC040B34DC9",
-                "type": "Object3D",
-                "matrix": [
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0.8506508230317321,
-                  -0.525731088366892,
-                  0,
-                  0,
-                  0.525731088366892,
-                  0.8506508230317321,
-                  0,
-                  0,
-                  0.18759242115970598,
-                  0.9822469360145359,
-                  1
-                ],
-                "children": [
-                  {
-                    "uuid": "FBA0989C-8A1A-46D9-AA84-C38AA2E7849E",
-                    "type": "Mesh",
-                    "userData": {
-                      "isElement": true,
-                      "edgeId": "0-17"
-                    },
-                    "matrix": [
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0.35682210326194763,
-                      0,
-                      1
-                    ],
-                    "geometry": "A5283478-5090-4708-A39B-FDF33B556C45",
-                    "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                  },
-                  {
-                    "uuid": "ECE76945-CF0C-4D6F-A17D-214802198EFF",
-                    "type": "Mesh",
-                    "userData": {
-                      "vertex": {
-                        "x": 0,
-                        "y": 0.18759242115970598,
-                        "z": 0.9822469360145359
-                      },
-                      "isElement": true
-                    },
-                    "matrix": [
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1
-                    ],
-                    "geometry": "BC23B550-C7C8-446D-B757-A8239589E668",
-                    "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                  }
-                ]
-              },
-              {
-                "uuid": "42A9F7CF-EE44-4B7A-9F35-E725DCC91492",
-                "type": "Object3D",
-                "matrix": [
-                  -0.673929375498957,
-                  0.49999999389305005,
-                  0.5438926391729673,
-                  0,
-                  -0.49999999389305005,
-                  -0.8506508114665641,
-                  0.16245985060385118,
-                  0,
-                  0.5438926391729673,
-                  -0.16245985060385118,
-                  0.8232785640323929,
-                  0,
-                  -0.5773502588272095,
-                  0.7946544527910849,
-                  0.18759249290681368,
-                  1
-                ],
-                "children": [
-                  {
-                    "uuid": "2A0EBE0F-B39A-4C55-995D-266AE2B838F9",
-                    "type": "Mesh",
-                    "userData": {
-                      "isElement": true,
-                      "edgeId": "2-16"
-                    },
-                    "matrix": [
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0.356822077817814,
-                      0,
-                      1
-                    ],
-                    "geometry": "16C3B3A4-358F-4126-8092-BB8A1C20BD9B",
-                    "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                  },
-                  {
-                    "uuid": "60A160F5-8195-4714-A995-073371972872",
-                    "type": "Mesh",
-                    "userData": {
-                      "vertex": {
-                        "x": -0.5773502588272095,
-                        "y": 0.7946544527910849,
-                        "z": 0.18759249290681368
-                      },
-                      "isElement": true
-                    },
-                    "matrix": [
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                      0,
-                      0,
-                      1
-                    ],
-                    "geometry": "85A2B22C-2547-4E7B-AAC4-69DA74583319",
-                    "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
+                    "geometry": "F6B617D6-CE90-4063-806C-D23195F49883",
+                    "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                   }
                 ]
               }
             ]
           },
           {
-            "uuid": "09AF793F-5996-4AF4-A289-1595AEC88A22",
+            "uuid": "DF2D0CB3-0B60-41A9-8BFB-ECFF872A668C",
             "type": "Object3D",
             "userData": {
               "isPivot": true,
@@ -4590,9 +2261,13 @@
             ],
             "children": [
               {
-                "uuid": "2DDD007A-E6D0-443E-9E12-3EB85CD74B66",
+                "uuid": "19B4DE73-18DA-4D02-98FD-E2B2D6E12A2E",
                 "type": "Object3D",
                 "name": "polygon-4",
+                "userData": {
+                  "isPolygon": true,
+                  "depth": 3
+                },
                 "matrix": [
                   1,
                   0,
@@ -4613,7 +2288,7 @@
                 ],
                 "children": [
                   {
-                    "uuid": "0175D62A-8CB0-45E6-BDC9-66B7A1BA640C",
+                    "uuid": "4F1BE175-422B-4959-B86F-527DCA9519E7",
                     "type": "Mesh",
                     "matrix": [
                       1,
@@ -4633,11 +2308,11 @@
                       0,
                       1
                     ],
-                    "geometry": "68624F04-C853-4D8C-A97C-F7F425841AC2",
-                    "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
+                    "geometry": "10183E69-3336-464E-8F26-62590594045A",
+                    "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
                   },
                   {
-                    "uuid": "E274063C-1066-442A-9A89-20523A21A553",
+                    "uuid": "EA6DB792-5169-4810-9D25-8CD47A997BE0",
                     "type": "Object3D",
                     "matrix": [
                       0.8361441377073664,
@@ -4659,7 +2334,7 @@
                     ],
                     "children": [
                       {
-                        "uuid": "2B13FCF3-CB9A-4ED3-A400-36902A5E52EA",
+                        "uuid": "09270BDE-6524-4A7C-8827-C59FECF1814D",
                         "type": "Mesh",
                         "userData": {
                           "isElement": true,
@@ -4683,11 +2358,11 @@
                           0,
                           1
                         ],
-                        "geometry": "155F5306-FF86-40C1-B84E-BED554A29065",
-                        "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                        "geometry": "AD22C3E2-E072-4A51-B269-CDBE2607DC4C",
+                        "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                       },
                       {
-                        "uuid": "F32E2DBB-6B2B-40D4-932E-BEB8AE0DC99A",
+                        "uuid": "8E5E9E1A-03DB-4F7A-AB97-E623A5EA03ED",
                         "type": "Mesh",
                         "userData": {
                           "vertex": {
@@ -4715,15 +2390,15 @@
                           0,
                           1
                         ],
-                        "geometry": "3575CAD7-42DF-4AC8-9EF3-2421D811A8AC",
-                        "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                        "geometry": "87A3F9B5-56DB-4C17-BE97-4B93507C86DD",
+                        "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                       }
                     ]
                   }
                 ]
               },
               {
-                "uuid": "B92B45CF-6676-4A3D-8D8C-DE9E5E076119",
+                "uuid": "921AFA14-3C5F-4AAF-A65E-6556FC717A1F",
                 "type": "Object3D",
                 "userData": {
                   "isPivot": true,
@@ -4753,9 +2428,13 @@
                 ],
                 "children": [
                   {
-                    "uuid": "1C7B817F-08D9-47FB-B539-1CFC51D562F4",
+                    "uuid": "0A9567C1-2848-4EDC-B913-F7658B32C641",
                     "type": "Object3D",
                     "name": "polygon-6",
+                    "userData": {
+                      "isPolygon": true,
+                      "depth": 4
+                    },
                     "matrix": [
                       1,
                       0,
@@ -4776,7 +2455,7 @@
                     ],
                     "children": [
                       {
-                        "uuid": "309B6921-00D0-4B92-A298-50E2DFDA6CBB",
+                        "uuid": "DAE06B1E-D7FC-4882-BA1D-482CDEA17954",
                         "type": "Mesh",
                         "matrix": [
                           1,
@@ -4796,11 +2475,11 @@
                           0,
                           1
                         ],
-                        "geometry": "90D3D214-2564-4F2B-A33C-EB1BE7D38749",
-                        "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
+                        "geometry": "157E0441-1657-411C-B7E6-791FBB762EAE",
+                        "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
                       },
                       {
-                        "uuid": "AD9D1EE1-3FB5-481C-B04F-D93A7655F827",
+                        "uuid": "D06F39A6-29AB-4FF3-B973-1E853C017AFE",
                         "type": "Object3D",
                         "matrix": [
                           1,
@@ -4822,7 +2501,7 @@
                         ],
                         "children": [
                           {
-                            "uuid": "84BDE3E1-8286-48AB-8453-B4543D4D3382",
+                            "uuid": "3DC4E9E9-7620-492F-82BC-B3B80137EEB2",
                             "type": "Mesh",
                             "userData": {
                               "isElement": true,
@@ -4846,11 +2525,11 @@
                               0,
                               1
                             ],
-                            "geometry": "4A8A841A-8E9C-48C6-AC01-C432D52968D4",
-                            "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                            "geometry": "26270BDC-837C-489D-BDB6-EE90547C11C0",
+                            "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                           },
                           {
-                            "uuid": "3A72C097-68BB-4ADF-9FC5-85F985EDFBED",
+                            "uuid": "D7D0CC2D-E92A-4AB8-85A3-6C0B1B91DB74",
                             "type": "Mesh",
                             "userData": {
                               "vertex": {
@@ -4878,344 +2557,8 @@
                               0,
                               1
                             ],
-                            "geometry": "DCB18866-B791-4FF7-8A02-0C04866DB003",
-                            "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "92A6E634-B506-4E34-8741-4A710C9A3235",
-                        "type": "Object3D",
-                        "matrix": [
-                          0.8649123906335761,
-                          -0.4999999938930508,
-                          0.04389262620830145,
-                          0,
-                          0.4999999938930508,
-                          0.8506508114665638,
-                          -0.16245985060385143,
-                          0,
-                          0.04389262620830145,
-                          0.16245985060385143,
-                          0.9857384208329878,
-                          0,
-                          -0.9341723322868347,
-                          0.18759247270126725,
-                          0.3035310158156895,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "3D805D2E-8133-415E-9D0D-A4809AF9E9FB",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "2-16"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.356822077817814,
-                              0,
-                              1
-                            ],
-                            "geometry": "ED00002E-5AF9-4DE0-81D0-6815AA3C4241",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "8F081A18-19BF-4B84-BD56-F78214051B71",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": -0.9341723322868347,
-                                "y": 0.18759247270126725,
-                                "z": 0.3035310158156895
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "4857730A-88DA-451E-AD1F-E19300C146D6",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "436AFD57-2C83-4757-AFDC-8C9D7CE7B5DF",
-                        "type": "Object3D",
-                        "matrix": [
-                          0.9045085128523782,
-                          -0.30901697130671796,
-                          0.2938926021899874,
-                          0,
-                          0.30901697130671796,
-                          1.4744300447233627e-8,
-                          -0.9510565237904752,
-                          0,
-                          0.2938926021899874,
-                          0.9510565237904752,
-                          0.09549150189192224,
-                          0,
-                          -0.5773502588272095,
-                          0.7946544527910849,
-                          0.18759249290681368,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "C6FD7726-263E-4213-ABC0-F0177858E7D7",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "2-4"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682207781781394,
-                              0,
-                              1
-                            ],
-                            "geometry": "A17A7881-8C2C-4C29-9573-CC891302B56F",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "97FC990B-90F6-4D77-9D84-099BC4CCE230",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": -0.5773502588272095,
-                                "y": 0.7946544527910849,
-                                "z": 0.18759249290681368
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "ABD3DDE8-3C90-4ECC-BFBB-1AD395D9F373",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "60A00806-69CD-412C-A8C1-D43C316C1851",
-                        "type": "Object3D",
-                        "matrix": [
-                          0.36061601125831244,
-                          0.30901697130671757,
-                          -0.8800367059779766,
-                          0,
-                          -0.30901697130671757,
-                          -0.8506507978976683,
-                          -0.42532544184480897,
-                          0,
-                          -0.8800367059779766,
-                          0.42532544184480897,
-                          -0.21126680915598084,
-                          0,
-                          -0.35682210326194763,
-                          0.7946544633132687,
-                          -0.49112343697539546,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "025E7F39-0096-4BC9-A164-EFFD2AF1AAF9",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "4-13"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.356822077817814,
-                              0,
-                              1
-                            ],
-                            "geometry": "F08E4B4A-A39C-428C-AAE4-2E7C09C30CB8",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "9AC6FA4E-9A56-4E86-9652-E36558C45C39",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": -0.35682210326194763,
-                                "y": 0.7946544633132687,
-                                "z": -0.49112343697539546
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "C93CCCD2-C947-4C71-94AC-96A431731E46",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "3A7AE70D-5926-46E7-AF6A-1DF45594D912",
-                        "type": "Object3D",
-                        "matrix": [
-                          0.47287283132658475,
-                          0.49999999389305055,
-                          0.7255282844246174,
-                          0,
-                          -0.49999999389305055,
-                          -0.5257311541687206,
-                          0.6881909325495169,
-                          0,
-                          0.7255282844246174,
-                          -0.6881909325495169,
-                          0.0013960145046946204,
-                          0,
-                          -0.5773502588272095,
-                          0.18759249290681368,
-                          -0.7946544527910849,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "CF6D9AB3-E32A-4E4B-973C-2BC043DA6CE4",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "12-13"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682207781781394,
-                              0,
-                              1
-                            ],
-                            "geometry": "77580681-DE44-4743-8BED-A70C3BAEF7CD",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "36B947FE-982B-4052-97EA-F51A257C0AC5",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": -0.5773502588272095,
-                                "y": 0.18759249290681368,
-                                "z": -0.7946544527910849
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "56CA3BF2-69C3-414E-8D13-FD428E27B471",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
+                            "geometry": "CDA9F1B1-7317-404D-B0F0-1240973510E7",
+                            "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                           }
                         ]
                       }
@@ -5224,7 +2567,7 @@
                 ]
               },
               {
-                "uuid": "BE07C49F-E782-4566-AA96-11E6B75A04A9",
+                "uuid": "E28B5D27-08ED-4F1C-A553-DC8EC6BBA163",
                 "type": "Object3D",
                 "userData": {
                   "isPivot": true,
@@ -5254,9 +2597,13 @@
                 ],
                 "children": [
                   {
-                    "uuid": "8642FA01-369F-43FD-B31D-C78A82643C36",
+                    "uuid": "1F7E397E-B674-4187-925C-4FF4C3D3E2B8",
                     "type": "Object3D",
                     "name": "polygon-3",
+                    "userData": {
+                      "isPolygon": true,
+                      "depth": 4
+                    },
                     "matrix": [
                       1,
                       0,
@@ -5277,7 +2624,7 @@
                     ],
                     "children": [
                       {
-                        "uuid": "6F572BF8-B141-4F55-9E89-601C1E7F8164",
+                        "uuid": "7328B114-6DFF-433C-B9D9-6826B643D4D1",
                         "type": "Mesh",
                         "matrix": [
                           1,
@@ -5297,11 +2644,11 @@
                           0,
                           1
                         ],
-                        "geometry": "49C0A2BA-D2ED-4AA3-817E-8D5E6894730E",
-                        "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
+                        "geometry": "8A6C4A19-CF73-4BE1-B1E7-CB1DE9EC99CF",
+                        "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
                       },
                       {
-                        "uuid": "F166C42A-B931-4F83-BBC7-2223CA072A5D",
+                        "uuid": "FD6F6F75-AB66-4103-8973-AC69DE495400",
                         "type": "Object3D",
                         "matrix": [
                           0.8649123906335761,
@@ -5323,7 +2670,7 @@
                         ],
                         "children": [
                           {
-                            "uuid": "D5C3B83D-7E2B-49E1-A14E-8BD8563FD763",
+                            "uuid": "E87DC48F-4B40-4FFD-9E09-63948670B82E",
                             "type": "Mesh",
                             "userData": {
                               "isElement": true,
@@ -5347,11 +2694,11 @@
                               0,
                               1
                             ],
-                            "geometry": "2BE86958-9C2C-41BA-B0A1-9F9806B32F5D",
-                            "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                            "geometry": "532494D1-178D-41FE-9020-5274118C45B2",
+                            "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                           },
                           {
-                            "uuid": "980DB725-DB02-4AF3-A569-62E6FC79D3C4",
+                            "uuid": "F73EBB5B-09F2-471D-9F6D-F04991939C28",
                             "type": "Mesh",
                             "userData": {
                               "vertex": {
@@ -5379,344 +2726,8 @@
                               0,
                               1
                             ],
-                            "geometry": "91D282EE-8268-41A9-8831-222A8C347FAC",
-                            "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "D19B9FA0-67BC-4DB5-BB08-B9ACFE748377",
-                        "type": "Object3D",
-                        "matrix": [
-                          0.8361441377073664,
-                          -0.4999999938930507,
-                          0.22552824010432454,
-                          0,
-                          0.4999999938930507,
-                          0.5257311541687206,
-                          -0.6881909325495172,
-                          0,
-                          0.22552824010432454,
-                          0.6881909325495172,
-                          0.6895870164613542,
-                          0,
-                          -0.9341723322868347,
-                          -0.18759247270126725,
-                          -0.3035310158156895,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "0F15871C-66CF-442E-8DF0-4654C8F9F804",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "12-13"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682207781781394,
-                              0,
-                              1
-                            ],
-                            "geometry": "416B745A-0138-43C1-80A1-ECFCC1074E7C",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "4439D416-FA20-4EEA-B0A8-6C0CDE8169AE",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": -0.9341723322868347,
-                                "y": -0.18759247270126725,
-                                "z": -0.3035310158156895
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "5A432BB0-0628-4DD3-86F2-A55E317FE309",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "8EC2C765-1EFE-4D11-8050-A3073FF85EA0",
-                        "type": "Object3D",
-                        "matrix": [
-                          -0.3800367104731688,
-                          -0.8090170069605289,
-                          0.44840113864859965,
-                          0,
-                          0.8090170069605289,
-                          -0.5257310819456658,
-                          -0.26286557767206314,
-                          0,
-                          0.44840113864859965,
-                          0.26286557767206314,
-                          0.8543056285275029,
-                          0,
-                          -0.5773502588272095,
-                          0.18759249290681368,
-                          -0.7946544527910849,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "E02D0E23-F687-480C-B674-E08DCFA96101",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "10-13"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682207781781394,
-                              0,
-                              1
-                            ],
-                            "geometry": "AAB146CF-32F0-4916-BC7A-F0A8706C668E",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "505CCC70-CE6C-4DC9-B0A1-7EE304706F83",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": -0.5773502588272095,
-                                "y": 0.18759249290681368,
-                                "z": -0.7946544527910849
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "8207C59F-7F15-4305-A579-9AA47B8E2D33",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "5F3520AB-1CB8-4E9A-990C-AC60E62CB304",
-                        "type": "Object3D",
-                        "matrix": [
-                          1,
-                          0,
-                          0,
-                          0,
-                          0,
-                          -0.8506508230317318,
-                          0.5257310883668915,
-                          0,
-                          0,
-                          -0.5257310883668915,
-                          -0.8506508230317318,
-                          0,
-                          0,
-                          -0.18759242115970598,
-                          -0.9822469360145359,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "1F42C9EB-5549-49DC-8D11-828E441B0C76",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "9-10"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682210326194763,
-                              0,
-                              1
-                            ],
-                            "geometry": "C417451A-A3B6-48B0-8C59-65E966322451",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "E5B12067-A025-44DB-A4AF-6A3B04809BE1",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": 0,
-                                "y": -0.18759242115970598,
-                                "z": -0.9822469360145359
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "CAC7705D-E40D-4AF4-9503-DEF7484CDEA2",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "7AA4F3A9-B999-46F5-88F1-4A4547B274AB",
-                        "type": "Object3D",
-                        "matrix": [
-                          0.3454914824486278,
-                          0.8090170069605287,
-                          0.4755282515309446,
-                          0,
-                          -0.8090170069605287,
-                          0,
-                          0.5877852349699061,
-                          0,
-                          0.4755282515309446,
-                          -0.5877852349699061,
-                          0.6545085175513723,
-                          0,
-                          0,
-                          -0.7946544527910849,
-                          -0.6070619906120015,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "9A658EFF-D795-4AAD-AC85-7338479E1B40",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "9-11"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682207781781394,
-                              0,
-                              1
-                            ],
-                            "geometry": "C7150941-7579-41AE-93B9-06D386DA7E6B",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "6E7E4881-D7C4-4BE9-8F73-72DEC26D3F13",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": 0,
-                                "y": -0.7946544527910849,
-                                "z": -0.6070619906120015
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "F3A04415-6746-4D10-8547-C0F50D23EE94",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
+                            "geometry": "AE70967C-54C5-41DA-BC14-F75659390228",
+                            "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                           }
                         ]
                       }
@@ -5725,7 +2736,7 @@
                 ]
               },
               {
-                "uuid": "3485D325-8EE2-4C65-8C1B-B29455779920",
+                "uuid": "A1F8D0E4-7D4A-447B-A5C4-D9E6B4285FF8",
                 "type": "Object3D",
                 "userData": {
                   "isPivot": true,
@@ -5755,9 +2766,13 @@
                 ],
                 "children": [
                   {
-                    "uuid": "FB9F7971-864D-4541-B070-4AB5DEE27D4C",
+                    "uuid": "44B08863-E2C9-47C1-A500-B1CE522FCDDE",
                     "type": "Object3D",
                     "name": "polygon-8",
+                    "userData": {
+                      "isPolygon": true,
+                      "depth": 4
+                    },
                     "matrix": [
                       1,
                       0,
@@ -5778,7 +2793,7 @@
                     ],
                     "children": [
                       {
-                        "uuid": "75CC40FA-49D8-4FCE-AF60-36064D77DAC1",
+                        "uuid": "9AEEF0D0-AA1D-43A0-B77D-952F88A9D516",
                         "type": "Mesh",
                         "matrix": [
                           1,
@@ -5798,11 +2813,11 @@
                           0,
                           1
                         ],
-                        "geometry": "D4CEE5E6-6F2F-4D48-BF40-99EFB354060C",
-                        "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
+                        "geometry": "0F6C8729-CCAA-4351-8AC8-EFAA11B622E3",
+                        "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
                       },
                       {
-                        "uuid": "4F843ABC-FE8A-4350-A355-64BEF559CF2B",
+                        "uuid": "3A4EDEBD-98D8-4CB1-941C-70FFC7528A22",
                         "type": "Object3D",
                         "matrix": [
                           0.9045085128523782,
@@ -5824,7 +2839,7 @@
                         ],
                         "children": [
                           {
-                            "uuid": "330FE199-3E7B-4DE6-9F76-68999BA3A7C6",
+                            "uuid": "21083FD6-BD8F-401E-BC1E-819161C4B9D5",
                             "type": "Mesh",
                             "userData": {
                               "isElement": true,
@@ -5848,11 +2863,11 @@
                               0,
                               1
                             ],
-                            "geometry": "EC2D8D41-E256-4EF3-B83A-D950A049BC8E",
-                            "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                            "geometry": "9FF27EC4-B9D8-49F0-B60A-BDC79F889947",
+                            "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                           },
                           {
-                            "uuid": "2FF9E1BD-3EAF-4D56-956C-96FD7833F807",
+                            "uuid": "997F819F-6AED-40CE-BD19-4C8DCB6902B5",
                             "type": "Mesh",
                             "userData": {
                               "vertex": {
@@ -5880,344 +2895,8 @@
                               0,
                               1
                             ],
-                            "geometry": "42E0D20A-5844-44E4-861E-EF083525D650",
-                            "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "AA3BC7BB-AB04-4B17-9505-4412B9EF5A81",
-                        "type": "Object3D",
-                        "matrix": [
-                          2.220446049250313e-16,
-                          0.9999999999999998,
-                          0,
-                          0,
-                          -0.9999999999999998,
-                          2.220446049250313e-16,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          0.35682210326194763,
-                          -0.7946544633132687,
-                          0.49112343697539546,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "6B678624-932C-40CE-8821-E1B8E6FD832B",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "14-18"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682210326194763,
-                              0,
-                              1
-                            ],
-                            "geometry": "BFDC78D3-9EA7-4163-8397-E18853357449",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "AF8D0CE4-045B-462D-9E6C-CD74C8AEE2A6",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": 0.35682210326194763,
-                                "y": -0.7946544633132687,
-                                "z": 0.49112343697539546
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "8B56C6A8-6AFA-4A53-83D1-1AE6710DDD58",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "4D624B82-15F0-471C-90E5-BE3F72A5F674",
-                        "type": "Object3D",
-                        "matrix": [
-                          0.3454914824486278,
-                          -0.8090170069605287,
-                          0.4755282515309446,
-                          0,
-                          0.8090170069605287,
-                          0,
-                          -0.5877852349699061,
-                          0,
-                          0.4755282515309446,
-                          0.5877852349699061,
-                          0.6545085175513723,
-                          0,
-                          -0.5773502588272095,
-                          -0.7946544527910849,
-                          -0.18759249290681368,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "F99D8086-0BD8-4548-A2AB-C716667079E4",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "9-11"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682207781781394,
-                              0,
-                              1
-                            ],
-                            "geometry": "625557C2-1ABD-47FB-8BAE-D6836084BFA1",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "8781B643-0F07-4555-8209-0CF424CABE49",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": -0.5773502588272095,
-                                "y": -0.7946544527910849,
-                                "z": -0.18759249290681368
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "B3BE24E6-07D5-4028-8AFF-DBB269357145",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "5385786E-B6B0-4DA7-A578-C68D56054F24",
-                        "type": "Object3D",
-                        "matrix": [
-                          0.3454914824486278,
-                          -0.8090170069605287,
-                          -0.4755282515309446,
-                          0,
-                          0.8090170069605287,
-                          0,
-                          0.5877852349699061,
-                          0,
-                          -0.4755282515309446,
-                          -0.5877852349699061,
-                          0.6545085175513723,
-                          0,
-                          0,
-                          -0.7946544527910849,
-                          -0.6070619906120015,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "95B951C1-8F71-43A6-A16F-2D35E879E601",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "8-9"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682207781781394,
-                              0,
-                              1
-                            ],
-                            "geometry": "2602FDB4-0797-4F94-B8CC-61117AEA63C5",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "C3FD5AC3-0AF3-4C64-954A-B941C47F3DB7",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": 0,
-                                "y": -0.7946544527910849,
-                                "z": -0.6070619906120015
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "395B3131-EC49-4961-B0CD-D04108FCCC29",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "D1E147C6-351C-4DBB-A7E0-EEBBC5493A18",
-                        "type": "Object3D",
-                        "matrix": [
-                          0.9045085100364678,
-                          0.309016971306718,
-                          0.29389261085646917,
-                          0,
-                          -0.309016971306718,
-                          -1.4744300447233627e-8,
-                          0.9510565237904752,
-                          0,
-                          0.29389261085646917,
-                          -0.9510565237904752,
-                          0.09549147521923174,
-                          0,
-                          0.5773502588272095,
-                          -0.7946544527910849,
-                          -0.18759249290681368,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "8F429ABD-5AB1-4C75-B8D9-26C68AAA687B",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "8-18"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682207781781394,
-                              0,
-                              1
-                            ],
-                            "geometry": "7910244C-EFC3-403D-A83B-AE889663CB02",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "C4F0CFB4-CD2D-420C-BF0E-AD50CE7B9612",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": 0.5773502588272095,
-                                "y": -0.7946544527910849,
-                                "z": -0.18759249290681368
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "54761402-4CC6-4A95-B1C4-6B282B45F1D3",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
+                            "geometry": "81E1F20E-C8A4-4800-B58E-21DCB38FF689",
+                            "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                           }
                         ]
                       }
@@ -6226,7 +2905,7 @@
                 ]
               },
               {
-                "uuid": "C6426F78-C280-4251-B2F7-535C8A2F053B",
+                "uuid": "7EC09E95-F482-48B7-ABA1-DB6B22A3778E",
                 "type": "Object3D",
                 "userData": {
                   "isPivot": true,
@@ -6256,9 +2935,13 @@
                 ],
                 "children": [
                   {
-                    "uuid": "83B89945-9603-4056-9CDB-0992105F75D3",
+                    "uuid": "29D18E6C-22A2-4412-9756-EB6CC997EF7F",
                     "type": "Object3D",
                     "name": "polygon-11",
+                    "userData": {
+                      "isPolygon": true,
+                      "depth": 4
+                    },
                     "matrix": [
                       1,
                       0,
@@ -6279,7 +2962,7 @@
                     ],
                     "children": [
                       {
-                        "uuid": "F2E9B4AA-6EB6-4BB2-9F78-8A6EC1573AAD",
+                        "uuid": "2C060D73-5154-4A4A-8BFC-23B85E241DAD",
                         "type": "Mesh",
                         "matrix": [
                           1,
@@ -6299,11 +2982,11 @@
                           0,
                           1
                         ],
-                        "geometry": "445F198C-9BF0-469B-824E-91D4771798B8",
-                        "material": "69C050B1-5C14-4457-A1BA-CCEE1DBF5DBF"
+                        "geometry": "4AC9195B-A89A-49AC-84E5-35621985C433",
+                        "material": "02C111B0-8E8E-4D64-9306-394669A2E235"
                       },
                       {
-                        "uuid": "48AFEA34-83F7-4B10-B4AB-9AA9F2817D70",
+                        "uuid": "F221DFE5-CE3F-41E0-9714-02B2E71B14E8",
                         "type": "Object3D",
                         "matrix": [
                           0.36061601125831244,
@@ -6325,7 +3008,7 @@
                         ],
                         "children": [
                           {
-                            "uuid": "151B06FE-169F-4162-BE0D-A9A592C51E7D",
+                            "uuid": "D336B49E-8905-4A4D-8EF2-6DA288380144",
                             "type": "Mesh",
                             "userData": {
                               "isElement": true,
@@ -6349,11 +3032,11 @@
                               0,
                               1
                             ],
-                            "geometry": "95E78200-9DA5-4BAC-AD35-FE6ED99B3D83",
-                            "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
+                            "geometry": "66664011-5C4A-4B16-BD5A-10CF251B5D1C",
+                            "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                           },
                           {
-                            "uuid": "4D8B63FF-AD15-4EC1-8BD7-97E56A156225",
+                            "uuid": "74E388A6-46C5-42C2-8F24-F5F1B105D982",
                             "type": "Mesh",
                             "userData": {
                               "vertex": {
@@ -6381,344 +3064,8 @@
                               0,
                               1
                             ],
-                            "geometry": "DE9EFB0D-A71C-4681-9993-21095982BC33",
-                            "material": "19BF6186-D3B5-4D85-9FBE-1CBBA0338828"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "15618881-07EC-4A95-A486-13D7CAA53D79",
-                        "type": "Object3D",
-                        "matrix": [
-                          2.220446049250313e-16,
-                          -0.9999999999999998,
-                          0,
-                          0,
-                          0.9999999999999998,
-                          2.220446049250313e-16,
-                          0,
-                          0,
-                          0,
-                          0,
-                          1,
-                          0,
-                          -0.35682210326194763,
-                          -0.7946544633132687,
-                          0.49112343697539546,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "DB90B267-9853-4BBC-AB4F-CD61CE4775BF",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "14-18"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682210326194763,
-                              0,
-                              1
-                            ],
-                            "geometry": "561AF4EA-EF29-4C50-BB6D-9C86591EEE5D",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "ABA44824-B0B9-474D-BBAC-DE2412F34237",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": -0.35682210326194763,
-                                "y": -0.7946544633132687,
-                                "z": 0.49112343697539546
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "EA9EA22B-F110-40D6-B29E-3C0518D6B673",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "DE2F96BD-686F-4A52-AC5F-9712131A0F70",
-                        "type": "Object3D",
-                        "matrix": [
-                          0.948401130745976,
-                          -0.309016971306718,
-                          -0.07101976234948362,
-                          0,
-                          0.309016971306718,
-                          0.8506507978976687,
-                          0.42532544184480947,
-                          0,
-                          -0.07101976234948362,
-                          -0.42532544184480947,
-                          0.9022496671516927,
-                          0,
-                          0.35682210326194763,
-                          -0.7946544633132687,
-                          0.49112343697539546,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "C2B7B06E-DD53-40FA-B8A8-4A3DFF0AFD9E",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "18-19"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.356822077817814,
-                              0,
-                              1
-                            ],
-                            "geometry": "E2CD58E2-6776-43D3-98E0-AC6E15EEC324",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "1EA37B4B-E4A3-4A5D-AC77-353F0528343B",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": 0.35682210326194763,
-                                "y": -0.7946544633132687,
-                                "z": 0.49112343697539546
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "F77C6418-66E7-499C-8844-93721F93B5CB",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "21C8BF4D-42B1-4473-A965-79CD722C1691",
-                        "type": "Object3D",
-                        "matrix": [
-                          0.5710197391294409,
-                          0.8090170069605286,
-                          0.13938414534362625,
-                          0,
-                          -0.8090170069605286,
-                          0.5257310819456659,
-                          0.26286557767206303,
-                          0,
-                          0.13938414534362625,
-                          -0.26286557767206303,
-                          0.9547113428162249,
-                          0,
-                          0.5773502588272095,
-                          -0.18759249290681368,
-                          0.7946544527910849,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "49AEECE3-495D-4415-900D-5A369CE38D05",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "17-19"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682207781781394,
-                              0,
-                              1
-                            ],
-                            "geometry": "6DBE18F7-03C6-44D4-BEF6-51C3780CAA4D",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "829E356E-9847-4229-9AF1-4B8019B782DF",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": 0.5773502588272095,
-                                "y": -0.18759249290681368,
-                                "z": 0.7946544527910849
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "411012FA-6061-47F9-9180-7A5C8A17091B",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          }
-                        ]
-                      },
-                      {
-                        "uuid": "8F1DFE12-973B-464A-88BA-6134715539C3",
-                        "type": "Object3D",
-                        "matrix": [
-                          -0.3800367104731688,
-                          0.8090170069605289,
-                          -0.44840113864859965,
-                          0,
-                          -0.8090170069605289,
-                          -0.5257310819456658,
-                          -0.26286557767206314,
-                          0,
-                          -0.44840113864859965,
-                          0.26286557767206314,
-                          0.8543056285275029,
-                          0,
-                          0,
-                          0.18759242115970598,
-                          0.9822469360145359,
-                          1
-                        ],
-                        "children": [
-                          {
-                            "uuid": "E06405DA-547B-49DE-8FE7-09636354D0E4",
-                            "type": "Mesh",
-                            "userData": {
-                              "isElement": true,
-                              "edgeId": "15-17"
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0.35682207781781394,
-                              0,
-                              1
-                            ],
-                            "geometry": "18C374D2-CB19-4EC3-9752-782D1EFBA81D",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
-                          },
-                          {
-                            "uuid": "2452F9EA-A15C-41BF-8ACB-03115B5B3040",
-                            "type": "Mesh",
-                            "userData": {
-                              "vertex": {
-                                "x": 0,
-                                "y": 0.18759242115970598,
-                                "z": 0.9822469360145359
-                              },
-                              "isElement": true
-                            },
-                            "matrix": [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ],
-                            "geometry": "5E43B438-63EF-421E-9433-74FC8667596C",
-                            "material": "803336E8-851C-4941-BDF3-D0D12B75E7A5"
+                            "geometry": "DF2C32D3-AB6F-4896-B730-F0749CC4E5A3",
+                            "material": "2840726D-6655-42E4-8EB1-42B1E44F8C7E"
                           }
                         ]
                       }
