@@ -9,7 +9,7 @@ const wrapper = new Object3D()
 wrapper.add(ergodox, dactyl, inBetween)
 viewer.scene.add(wrapper)
 
-const keyboardTween = timingFunction => t => {
+const makeKeyboardTween = timingFunction => t => {
   inBetween.visible = t > 0
   inBetween.traverse(node => {
     const { id } = node.userData
@@ -81,7 +81,7 @@ export const fragments = {
     }, { duration: 0 })
   },
   tween: {
-    regularKeyboardTween: keyboardTween(linear),
+    regularKeyboardTween: makeKeyboardTween(linear),
     animation: animation(t => {
       yellow.opacity = t * .5
       green.opacity = (1 - t) * .5
@@ -93,37 +93,67 @@ export const fragments = {
       reverseOptions: { duration: 100 }
     })
   },
-  waveTime: {
-    animation: animation(keyboardTween(t => (
-      (Math.sin(t * 2*Math.PI) + 1) / 2
-    )), {
+  wave: {
+    state: 'timeOnly',
+    animation: animation(t => {
+      const activeFunction = fragments.wave.state
+      const tweenFunction = fragments.wave[activeFunction]
+      tweenFunction(t)
+    }, {
       duration: 1500,
       repeat: true,
       reverseOptions: {
         duration: 100,
         repeat: false
       }
-    })
-  },
-  waveTimeX: {
-    animation: animation(keyboardTween((t, node) => {
+    }),
+    timeOnly: makeKeyboardTween(t => (Math.sin(t * 2*Math.PI) + 1) / 2),
+    timeAndX: makeKeyboardTween((t, node) => {
       const size = new Vector3()
       ergodox.userData.boundingBox.getSize(size)
 
       const { id } = node.userData
       const src = getTransforms(ergodox.userData.index[id])
       const x = (src.position.x + size.x/2) / size.x
-      // const z = (src.position.z + size.z/2) / size.z
       const f = (Math.sin((t + x) * 2*Math.PI) + 1) / 2
 
       return f
-    }), {
-      duration: 1500,
-      repeat: true,
-      reverseOptions: {
-        duration: 100,
-        repeat: false
-      }
+    }),
+    timeAndXY: makeKeyboardTween((t, node) => {
+      const size = new Vector3()
+      ergodox.userData.boundingBox.getSize(size)
+
+      const { id } = node.userData
+      const src = getTransforms(ergodox.userData.index[id])
+      const x = (src.position.x + size.x/2) / size.x
+      const z = (src.position.z + size.z/2) / size.z
+      const f = (Math.sin((t + x + z) * 2*Math.PI) + 1) / 2
+
+      return f
+    }),
+    timeAndXYsigned: makeKeyboardTween((t, node) => {
+      const size = new Vector3()
+      ergodox.userData.boundingBox.getSize(size)
+
+      const { id } = node.userData
+      const src = getTransforms(ergodox.userData.index[id])
+      const x = (src.position.x + size.x/2) / size.x
+      const z = (src.position.z + size.z/2) / size.z
+      const f = Math.sin((t + x + z) * 2*Math.PI) / 2
+
+      return f
+    }),
+    timeAndXYsignedAmplified: makeKeyboardTween((t, node) => {
+      const size = new Vector3()
+      ergodox.userData.boundingBox.getSize(size)
+
+      const { id } = node.userData
+      const src = getTransforms(ergodox.userData.index[id])
+      const x = (src.position.x + size.x/2) / size.x
+      const z = (src.position.z + size.z/2) / size.z
+      const f = Math.sin((t + x + z) * 2*Math.PI)
+
+      return f
     })
   }
 }

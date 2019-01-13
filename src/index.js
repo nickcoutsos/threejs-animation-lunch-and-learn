@@ -45,6 +45,8 @@ slideshow.events.on('fragmentchanged', ({ slide, state, fragment, previousFragme
   const rollback = state.previousFragment > state.fragment
   const fragmentElement = rollback ? previousFragment : fragment
   const fragmentName = get(fragmentElement, 'dataset.fragment')
+  const fragmentDetails = get(slideDetails.fragments, fragmentName)
+  const fragmentState = get(fragmentElement, 'dataset.fragmentState')
   const fragmentAnimation = get(slideDetails, `fragments.${fragmentName}.animation`)
 
   if (activeAnimation && fragmentAnimation !== activeAnimation) {
@@ -52,6 +54,10 @@ slideshow.events.on('fragmentchanged', ({ slide, state, fragment, previousFragme
   }
 
   activeAnimation = fragmentAnimation
+
+  if (fragmentDetails && fragmentState) {
+    fragmentDetails.state = fragmentState
+  }
 
   if (activeAnimation && rollback) {
     activeAnimation.reverse()
