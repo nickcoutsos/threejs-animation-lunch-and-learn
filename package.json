@@ -7,7 +7,7 @@
     "clean": "rm -rf .cache/ dist/ build/",
     "start": "parcel --no-hmr index.html",
     "prestart": "mkdir -p dist/assets/ && cp -r src/assets/* dist/assets/",
-    "build": "parcel build --public-url ./ --no-minify -d build index.html",
+    "build": "parcel build --public-url ./ -d build index.html",
     "prebuild": "mkdir -p build/assets/ && cp -r src/assets/* build/assets/"
   },
   "author": "",
