@@ -2,6 +2,7 @@ import 'microlight'
 import get from 'lodash/get'
 import * as viewer from './viewer'
 import * as slideshow from './slideshow'
+import * as sync from './sync'
 import slides from './slides'
 
 viewer.init()
@@ -45,7 +46,7 @@ slideshow.events.on('fragmentchanged', ({ slide, state, fragment, previousFragme
   const rollback = state.previousFragment > state.fragment
   const fragmentElement = rollback ? previousFragment : fragment
   const fragmentName = get(fragmentElement, 'dataset.fragment')
-  const fragmentDetails = get(slideDetails.fragments, fragmentName)
+  const fragmentDetails = get(slideDetails, `fragments.${fragmentName}`)
   const fragmentState = get(fragmentElement, 'dataset.fragmentState')
   const fragmentAnimation = get(slideDetails, `fragments.${fragmentName}.animation`)
 
@@ -81,3 +82,15 @@ document.addEventListener('fullscreenchange', () => {
 })
 
 slideshow.initialize()
+
+document.querySelector('#secret').addEventListener('click', () => {
+  document.querySelector('#menu').classList.toggle('active')
+})
+
+document.querySelector('#menu [name="fullscreen"]').addEventListener('click', toggleFullScreen)
+document.querySelector('#menu [name="auth"]').addEventListener('click', () => sync.presenter())
+document.querySelector('#menu [name="close"]').addEventListener('click', () => {
+  document.querySelector('#menu').classList.remove('active')
+})
+
+sync.init()
