@@ -49,12 +49,7 @@ const opacityZero = new three.LineSegments(
   new three.EdgesGeometry(new three.BoxGeometry(1, 1, 1)),
   new three.LineBasicMaterial({
     name: 'primary',
-    color: 'dimgray',
-    emissive: 'white',
-    emissiveIntensity: 0.1,
-    roughness: 0.7,
-    metalness: 0.5,
-    wireframe: true
+    color: 'dimgray'
   })
 )
 
