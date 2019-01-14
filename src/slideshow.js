@@ -97,6 +97,18 @@ const emitFragmentChange = () => {
   })
 }
 
+export const setState = newState => {
+  const slideChanged = newState.slide !== state.slide
+  const fragmentChanged = newState.fragment !== state.fragment
+
+  Object.assign(state, newState)
+
+  slideChanged && emitSlideChange()
+  !slideChanged && fragmentChanged && emitFragmentChange()
+
+  updateAppState()
+}
+
 const updateAppState = () => {
   const app = document.querySelector('#app')
   const slide = slides[state.slide]
