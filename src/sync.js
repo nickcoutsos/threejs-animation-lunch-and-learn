@@ -13,7 +13,7 @@ function sendUpdate ({ state }) {
 }
 
 export const init = () => {
-  socket = new WebSocket('ws://sync-slide.herokuapp.com/topics/threejs-animation-slides')
+  socket = new WebSocket('wss://sync-slide.herokuapp.com/topics/threejs-animation-slides')
 
   socket.onopen = () => {
     console.log('connected to topic')
