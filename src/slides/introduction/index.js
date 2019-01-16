@@ -4,13 +4,13 @@ import * as viewer from '../../viewer'
 import { box, grid, axes } from './components'
 
 const wrapper = new Object3D()
-const boxOrigin = new Object3D()
-box.position.set(0, .5, 0)
-axes.position.set(-5, 0, -5)
+
+grid.position.set(0, -0.5, 0)
+axes.position.set(-5, -0.5, -5)
 
 viewer.scene.add(wrapper)
-wrapper.add(boxOrigin, grid, axes)
-boxOrigin.add(box)
+wrapper.add(box, grid, axes)
+
 box.visible = false
 axes.visible = false
 grid.visible = false
@@ -38,7 +38,7 @@ export const fragments = {
   },
   choppy: {
     animation: animation(t => {
-      boxOrigin.position.x = Math.round(t * 5) + (t > .5 ? -5 : 0)
+      box.position.x = Math.round(t * 5) + (t > .5 ? -5 : 0)
       viewer.renderFrame()
     }, {
       duration: 2000,
@@ -51,7 +51,7 @@ export const fragments = {
   },
   smoother: {
     animation: animation(t => {
-      boxOrigin.position.x = Math.round(t * 5 * 2) / 2 + (t > .5 ? -5 : 0)
+      box.position.x = Math.round(t * 5 * 2) / 2 + (t > .5 ? -5 : 0)
       viewer.renderFrame()
     }, {
       duration: 2000,

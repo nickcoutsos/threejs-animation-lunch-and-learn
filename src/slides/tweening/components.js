@@ -37,6 +37,4 @@ export const ghost = new three.Mesh(
 )
 
 source.position.x = -5
-source.position.y = .5
 dest.position.x = 5
-dest.position.y = .5

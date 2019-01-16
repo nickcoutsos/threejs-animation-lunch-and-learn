@@ -7,7 +7,7 @@ box.visible = false
 viewer.scene.add(box)
 
 const position = value => {
-  box.position.set(value * 4, 0, 3.5)
+  box.position.set(value * 4, 0, 2.5)
   viewer.renderFrame()
 }
 
