@@ -45,7 +45,13 @@
         </li>
         <li class="fragment" data-fragment="tweenedPositions">
           We can calculate any "in-be<em>tween</em>" values.
-          <!-- TODO: show code snippet of `Vector3.lerp()` -->
+          <div class="temporary bottom" style="font-size: 18px; width: auto;">
+<pre><code class="microlight" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
+  box.position
+    .copy(source)
+    .lerp(dest, i / steps)
+}</code></pre>
+          </div>
         </li>
       </ul>
       <p class="fragment bottom">
@@ -58,11 +64,29 @@
       <h2>Tweening: continued</h2>
       <p>So what else can we tween?</p>
       <ul>
-        <li class="fragment" data-fragment="tweenedRotations">
-          Rotation!<em>*</em>
-        </li>
         <li class="fragment" data-fragment="tweenedScales">
-          Scale, too.
+          Scale!
+          <div class="temporary bottom" style="font-size: 18px; width:auto">
+<pre><code class="microlight" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
+  box.scale
+    .copy(source)
+    .lerp(dest, i / steps)
+}</code></pre>
+          </div>
+        </li>
+        <li class="fragment" data-fragment="tweenedRotations">
+          Rotation, too!<em>*</em>
+          <div class="temporary bottom" style="font-size: 18px; width:auto">
+<pre><code class="microlight" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
+  box.rotation.x = (
+    source.rotation.y +
+    (i / steps) * (
+      dest.rotation.y -
+      source.rotation.y
+    )
+  )
+}</code></pre>
+          </div>
         </li>
       </ul>
       <ul class="bottom">
@@ -84,16 +108,31 @@
         </li>
         <li class="fragment" data-fragment="tweenColour">
           Colour tweening, however...
-          <h2 class="overlay center">?</h2>
+          <h2 class="temporary center" style="font-weight:bold; font-size:144px; text-shadow:5px 5px 5px rgba(0,0,0,0.25)">
+            ?
+          </h2>
           <ul class="bottom">
             <li class="fragment" data-fragment="tweenColourRGB">
               Option 1, RGB: individually interpolate each of the
               colour's components.
+              <div class="temporary" style="font-size: 18px; position: absolute; right: -200px; top: -200px;">
+<pre><code class="microlight" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
+  box.material.color
+    .copy(source)
+    .lerp(dest, i / steps)
+}</code></pre>
+              </div>
             </li>
             <li class="fragment" data-fragment="tweenColourHSL">
               Option 2, HSL: same idea, different colour model!
+              <div class="temporary" style="font-size: 18px; position: absolute; right: -200px; top: -200px;">
+<pre><code class="microlight" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
+  box.material.color
+    .copy(source)
+    .lerpHSL(dest, i / steps)
+}</code></pre>
+              </div>
             </li>
-            <!-- TODO: show snippet `Color.lerp()` and `Color.lerpHSL()` -->
           </ul>
         </li>
       </ul>

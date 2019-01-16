@@ -65,12 +65,16 @@ export const fragments = {
       }
     })
   },
-  tweenedRotations: {
+  tweenedScales: {
     animation: animation(t => {
-      dest.rotation.y = t === 0 ? 0 : Math.PI/2
+      dest.scale.copy(
+        t === 0
+          ? new three.Vector3(1, 1, 1)
+          : new three.Vector3(1, 1, 3)
+      )
       for (let i = 0; i < tweenCount; i++) {
         tweenedPositions.children[i].visible = t === 0
-        tweenedRotations.children[i].visible = (i / tweenCount) < t
+        tweenedScales.children[i].visible = (i / tweenCount) < t
       }
 
       viewer.renderFrame()
@@ -81,18 +85,17 @@ export const fragments = {
       }
     })
   },
-  tweenedScales: {
+  tweenedRotations: {
     animation: animation(t => {
-      dest.rotation.y = t === 0 ? Math.PI/2 : 0
       dest.scale.copy(
-        t === 0
+        t > 0
           ? new three.Vector3(1, 1, 1)
           : new three.Vector3(1, 1, 3)
       )
 
       for (let i = 0; i < tweenCount; i++) {
-        tweenedRotations.children[i].visible = t === 0
-        tweenedScales.children[i].visible = (i / tweenCount) < t
+        tweenedScales.children[i].visible = t === 0
+        tweenedRotations.children[i].visible = (i / tweenCount) < t
       }
 
       viewer.renderFrame()

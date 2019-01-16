@@ -138,6 +138,14 @@ p {
   &:not(.active) {
     opacity: 0;
   }
+
+  .temporary {
+    opacity: 0;
+  }
+
+  &.current .temporary {
+    opacity: 1;
+  }
 }
 
 .slide li > p {
@@ -163,20 +171,4 @@ p {
   left: 50vw;
   top: 50vh;
   transform: translate(-50%, -50%);
-}
-
-[data-slide="tweeningContinued"] {
-  [data-fragment="tweenColour"] {
-    .overlay {
-      opacity: 0;
-      font-size: 144px;
-      font-weight: bold;
-      text-shadow:
-        5px 5px 5px rgba(0, 0, 0, 0.5);
-    }
-
-    &.current .overlay {
-      opacity: 1;
-    }
-  }
 }
