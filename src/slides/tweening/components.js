@@ -3,7 +3,7 @@ import * as three from 'three'
 export const source = new three.Mesh(
   new three.BoxGeometry(1, 1, 1),
   new three.MeshStandardMaterial({
-    color: 'mediumseagreen',
+    color: 'firebrick',
     emissive: 'white',
     emissiveIntensity: 0.1,
     roughness: 0.7,
@@ -14,7 +14,7 @@ export const source = new three.Mesh(
 export const dest = new three.Mesh(
   new three.BoxGeometry(1, 1, 1),
   new three.MeshStandardMaterial({
-    color: 'firebrick',
+    color: 'mediumseagreen',
     emissive: 'white',
     emissiveIntensity: 0.1,
     roughness: 0.7,
