@@ -21,7 +21,7 @@ npm start
 This will start a dev server on `http://localhost:1234`. Or better yet use the
 GitHub-hosted version of the [lunch and learn slides](https://nickcoutsos.github.io/threejs-animation-lunch-and-learn/).
 
-Either way you can browsethrough the slides with the left and right arrow keys.
+Either way you can browse through the slides with the left and right arrow keys.
 If you happen to be viewing this at the same time that I'm presenting you should
 recieve slide change events via websocket messages for synchronized viewing for
 better performance than you'd get from a video stream.
