@@ -50,6 +50,11 @@ slideshow.events.on('fragmentchanged', ({ slide, state, fragment, previousFragme
   const fragmentState = get(fragmentElement, 'dataset.fragmentState')
   const fragmentAnimation = get(slideDetails, `fragments.${fragmentName}.animation`)
 
+  let playbackOptions = {}
+  if (state.durationOverride !== null) {
+    playbackOptions.duration = state.durationOverride
+  }
+
   if (activeAnimation && fragmentAnimation !== activeAnimation) {
     activeAnimation.stop()
   }
@@ -61,9 +66,9 @@ slideshow.events.on('fragmentchanged', ({ slide, state, fragment, previousFragme
   }
 
   if (activeAnimation && rollback) {
-    activeAnimation.reverse()
+    activeAnimation.reverse(playbackOptions)
   } else if (activeAnimation) {
-    activeAnimation.start()
+    activeAnimation.start(playbackOptions)
   }
 })
 
@@ -106,10 +111,8 @@ document.querySelector('#menu [name="close"]').addEventListener('click', () => {
 })
 
 document.querySelector('#sync').addEventListener('click', () => {
-  slideshow.setState(Object.assign(
-    { usePresenterState: true },
-    slideshow.state.presenterState
-  ))
+  slideshow.setState({ usePresenterState: true })
+  slideshow.seekTo(slideshow.state.presenterState)
 })
 
 sync.init()

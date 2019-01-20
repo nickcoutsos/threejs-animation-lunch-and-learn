@@ -5,15 +5,27 @@ export const events = new EventEmitter()
 const slides = []
 
 export const state = {
+  absolute: 0,
   slide: 0,
   previousSlide: -1,
   fragment: -1,
   previousFragment: -1,
-  usePresenterState: true
+  usePresenterState: true,
+  durationOverride: null
 }
 
 export const initialize = () => {
   slides.push(...[].slice.call(document.querySelectorAll('section.slide')))
+
+  let counter = 0
+  slides.forEach(slide => {
+    slide.dataset.absoluteIndex = counter++
+    const fragments = Array.from(slide.querySelectorAll('.fragment'))
+    fragments.forEach(fragment => {
+      fragment.dataset.absoluteIndex = counter++
+    })
+  })
+
   slides[state.slide].classList.add('active')
   updateAppState()
 
@@ -35,12 +47,13 @@ export const initialize = () => {
 
 export const next = () => {
   const fragments = slides[state.slide].querySelectorAll('.fragment')
-
   if (state.fragment < fragments.length - 1) {
+    state.absolute++
     state.previousFragment = state.fragment
     state.fragment++
     emitFragmentChange()
   } else if (state.slide < slides.length - 1) {
+    state.absolute++
     state.previousSlide = state.slide
     state.slide++
     state.fragment = -1
@@ -53,11 +66,13 @@ export const next = () => {
 
 export const prev = () => {
   if (state.fragment > -1) {
+    state.absolute--
     state.previousFragment = state.fragment
     state.fragment--
 
     emitFragmentChange()
   } else if (state.slide > 0) {
+    state.absolute--
     state.previousSlide = state.slide
     state.slide--
 
@@ -69,6 +84,26 @@ export const prev = () => {
   }
 
   updateAppState()
+}
+
+export const seekTo = (targetState) => {
+  setState({ durationOverride: 100 })
+  const advance = targetState.absolute > state.absolute ? next : prev
+  const interval = setInterval(() => {
+    console.log('tick', targetState.absolute, state.absolute)
+    if (Math.abs(targetState.absolute - state.absolute) <= 1) {
+      console.log('catching up, clear override')
+      setState({ durationOverride: null })
+    }
+    if (state.absolute === targetState.absolute) {
+      console.log('last one, clear interval')
+      clearInterval(interval)
+      return
+    }
+
+    console.log('advance')
+    advance()
+  }, 120)
 }
 
 const emitSlideChange = () => {

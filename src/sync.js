@@ -6,12 +6,12 @@ let presenterToken = null
 let socket, pingInterval
 
 function sendUpdate ({ state }) {
-  const { slide, previousSlide, fragment, previousFragment } = state
+  const { absolute, slide, previousSlide, fragment, previousFragment } = state
   return fetch(`https://${syncHost}/topics/threejs-animation-slides`, {
     method: 'POST',
     cors: 'cors',
     headers: { authorization: `Bearer ${presenterToken}` },
-    body: JSON.stringify({ slide, previousSlide, fragment, previousFragment })
+    body: JSON.stringify({ absolute, slide, previousSlide, fragment, previousFragment })
   })
 }
 
