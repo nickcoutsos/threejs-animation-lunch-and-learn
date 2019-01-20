@@ -83,6 +83,18 @@ document.addEventListener('fullscreenchange', () => {
 
 slideshow.initialize()
 
+window.addEventListener('keyup', ({ key }) => {
+  if (key === 'ArrowRight' || key === ' ') slideshow.next()
+  else if (key === 'ArrowLeft') slideshow.prev()
+  else {
+    return
+  }
+
+  if (slideshow.state.usePresenterState) {
+    slideshow.setState({ usePresenterState: false })
+  }
+})
+
 document.querySelector('#secret').addEventListener('click', () => {
   document.querySelector('#menu').classList.toggle('active')
 })
@@ -91,6 +103,13 @@ document.querySelector('#menu [name="fullscreen"]').addEventListener('click', to
 document.querySelector('#menu [name="auth"]').addEventListener('click', () => sync.presenter())
 document.querySelector('#menu [name="close"]').addEventListener('click', () => {
   document.querySelector('#menu').classList.remove('active')
+})
+
+document.querySelector('#sync').addEventListener('click', () => {
+  slideshow.setState(Object.assign(
+    { usePresenterState: true },
+    slideshow.state.presenterState
+  ))
 })
 
 sync.init()

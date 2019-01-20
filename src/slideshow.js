@@ -8,7 +8,8 @@ export const state = {
   slide: 0,
   previousSlide: -1,
   fragment: -1,
-  previousFragment: -1
+  previousFragment: -1,
+  usePresenterState: true
 }
 
 export const initialize = () => {
@@ -21,11 +22,6 @@ export const initialize = () => {
     previousSlide: null,
     slide: slides[state.slide],
     state
-  })
-
-  window.addEventListener('keyup', ({ key }) => {
-    if (key === 'ArrowRight' || key === ' ') next()
-    else if (key === 'ArrowLeft') prev()
   })
 
   events.on('swipe', ({ direction }) => {
@@ -101,6 +97,7 @@ const emitFragmentChange = () => {
 export const setState = newState => {
   const slideChanged = ('slide' in newState) && newState.slide !== state.slide
   const fragmentChanged = ('fragment' in newState) && newState.fragment !== state.fragment
+
   Object.assign(state, newState)
 
   slideChanged && emitSlideChange()
@@ -115,20 +112,13 @@ const updateAppState = () => {
   const fragments = Array.from(slide.querySelectorAll('.fragment'))
   const fragment = state.fragment > 0 && fragments[state.fragment + 1]
 
-  slide.classList.add('active')
-  if (state.previousSlide !== -1){
-    slides[state.previousSlide].classList.remove('active')
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].classList.toggle('active', i === state.slide)
   }
 
   for (let i = 0; i < fragments.length; i++) {
-    if (i === state.fragment) {
-      fragments[i].classList.add('active', 'current')
-    } else if (i < state.fragment) {
-      fragments[i].classList.add('active')
-      fragments[i].classList.remove('current')
-    } else {
-      fragments[i].classList.remove('active', 'current')
-    }
+    fragments[i].classList.toggle('active', i <= state.fragment)
+    fragments[i].classList.toggle('current', i === state.fragment)
   }
 
   for (let prop in app.dataset) { delete app.dataset[prop] }
@@ -139,9 +129,7 @@ const updateAppState = () => {
     }
   }
 
-  if (state.isPresenter) {
-    app.dataset.isPresenter = 'true'
-  } else {
-    delete app.dataset.isPresenter
-  }
+  app.dataset.isPresenter = !!state.isPresenter
+  app.dataset.usePresenterState = !!state.usePresenterState
+  app.dataset.hasPresenterState = 'presenterState' in state
 }

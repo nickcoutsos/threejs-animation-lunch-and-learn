@@ -6,11 +6,12 @@ let presenterToken = null
 let socket, pingInterval
 
 function sendUpdate ({ state }) {
+  const { slide, previousSlide, fragment, previousFragment } = state
   return fetch(`https://${syncHost}/topics/threejs-animation-slides`, {
     method: 'POST',
     cors: 'cors',
     headers: { authorization: `Bearer ${presenterToken}` },
-    body: JSON.stringify(state)
+    body: JSON.stringify({ slide, previousSlide, fragment, previousFragment })
   })
 }
 
@@ -23,7 +24,11 @@ export const init = () => {
 
   socket.onmessage = (message) => {
     console.log(new Date(), 'message received', message.data)
-    slideshow.setState(JSON.parse(message.data))
+    const newState = JSON.parse(message.data)
+    slideshow.setState(Object.assign(
+      slideshow.state.usePresenterState && newState,
+      { presenterState: newState }
+    ))
   }
 
   socket.onclose = () => {
