@@ -3,7 +3,8 @@ import { upperFirst } from 'lodash'
 
 export const events = new EventEmitter()
 const slides = []
-const state = {
+
+export const state = {
   slide: 0,
   previousSlide: -1,
   fragment: -1,
@@ -98,9 +99,8 @@ const emitFragmentChange = () => {
 }
 
 export const setState = newState => {
-  const slideChanged = newState.slide !== state.slide
-  const fragmentChanged = newState.fragment !== state.fragment
-
+  const slideChanged = ('slide' in newState) && newState.slide !== state.slide
+  const fragmentChanged = ('fragment' in newState) && newState.fragment !== state.fragment
   Object.assign(state, newState)
 
   slideChanged && emitSlideChange()
@@ -110,7 +110,7 @@ export const setState = newState => {
 }
 
 const updateAppState = () => {
-  const app = document.querySelector('#app')
+  const app = document.body
   const slide = slides[state.slide]
   const fragments = Array.from(slide.querySelectorAll('.fragment'))
   const fragment = state.fragment > 0 && fragments[state.fragment + 1]
@@ -137,5 +137,11 @@ const updateAppState = () => {
     for (let prop in fragment.dataset) {
       app.dataset[`fragmentState${upperFirst(prop)}`] = fragment.dataset[prop]
     }
+  }
+
+  if (state.isPresenter) {
+    app.dataset.isPresenter = 'true'
+  } else {
+    delete app.dataset.isPresenter
   }
 }

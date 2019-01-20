@@ -42,11 +42,21 @@ export const presenter = () => {
 
   if (token) {
     presenterToken = token
-    socket && socket.close()
-    clearInterval(pingInterval)
-    slideshow.events.off('slidechanged', sendUpdate)
-    slideshow.events.off('fragmentchanged', sendUpdate)
-    slideshow.events.on('slidechanged', sendUpdate)
-    slideshow.events.on('fragmentchanged', sendUpdate)
+    sendUpdate({ state: slideshow.state }).then(res => {
+      if (!res.ok) {
+        return res.text().then(err => {
+          console.error(err)
+          window.alert('could not authenticate as presenter')
+        })
+      }
+
+      socket && socket.close()
+      clearInterval(pingInterval)
+      slideshow.events.off('slidechanged', sendUpdate)
+      slideshow.events.off('fragmentchanged', sendUpdate)
+      slideshow.events.on('slidechanged', sendUpdate)
+      slideshow.events.on('fragmentchanged', sendUpdate)
+      slideshow.setState({ isPresenter: true })
+    })
   }
 }
