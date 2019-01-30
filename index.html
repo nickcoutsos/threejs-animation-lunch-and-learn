@@ -61,8 +61,8 @@
         </li>
         <li class="fragment" data-fragment="tweenedPositions">
           We can calculate any "in-be<em>tween</em>" values.
-          <div class="temporary bottom" style="font-size: 18px; width: auto;">
-<pre><code class="microlight" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
+          <div class="temporary bottom" style="width: auto;">
+<pre><code class="microlight snippet" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
   box.position
     .copy(source)
     .lerp(dest, i / steps)
@@ -82,8 +82,8 @@
       <ul>
         <li class="fragment" data-fragment="tweenedScales">
           Scale!
-          <div class="temporary bottom" style="font-size: 18px; width:auto">
-<pre><code class="microlight" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
+          <div class="temporary bottom" style="width:auto">
+<pre><code class="microlight snippet" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
   box.scale
     .copy(source)
     .lerp(dest, i / steps)
@@ -92,8 +92,8 @@
         </li>
         <li class="fragment" data-fragment="tweenedRotations">
           Rotation, too!<em>*</em>
-          <div class="temporary bottom" style="font-size: 18px; width:auto">
-<pre><code class="microlight" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
+          <div class="temporary bottom" style="width:auto">
+<pre><code class="microlight snippet" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
   box.rotation.x = (
     source.rotation.y +
     (i / steps) * (
@@ -121,8 +121,8 @@
       <ul>
         <li class="fragment" data-fragment="tweenOpacity">
           Opacity is pretty straightforward
-          <div class="temporary bottom" style="font-size: 18px; width:auto">
-<pre><code class="microlight" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
+          <div class="temporary bottom" style="width:auto">
+<pre><code class="microlight snippet" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
   box.material.opacity = i / steps
 }</code></pre>
           </div>
@@ -136,8 +136,8 @@
             <li class="fragment" data-fragment="tweenColourRGB">
               Option 1, RGB: individually interpolate each of the
               colour's components.
-              <div class="temporary" style="font-size: 18px; position: absolute; right: -200px; top: -200px;">
-<pre><code class="microlight" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
+              <div class="temporary" style="position: absolute; right: -200px; top: -200px;">
+<pre><code class="microlight snippet" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
   box.material.color
     .copy(source)
     .lerp(dest, i / steps)
@@ -146,8 +146,8 @@
             </li>
             <li class="fragment" data-fragment="tweenColourHSL">
               Option 2, HSL: same idea, different colour model!
-              <div class="temporary" style="font-size: 18px; position: absolute; right: -200px; top: -200px;">
-<pre><code class="microlight" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
+              <div class="temporary" style="position: absolute; right: -200px; top: -200px;">
+<pre><code class="microlight snippet" style="display:block;">for (let i = 0; i &lt;= steps; i++) {
   box.material.color
     .copy(source)
     .lerpHSL(dest, i / steps)
@@ -216,7 +216,7 @@
       <h2>Timing functions: complified</h2>
       <p>As long as you take a number and return a number...</p>
       <div class="fragment" data-fragment="bounce">
-<pre style="display: inline-block;"><code style="display: block; font-size: 80%;" class="microlight">const bounce = t => {
+<pre style="display: inline-block;"><code style="display: block; font-size: 80%;" class="microlight snippet">const bounce = t => {
   if (t < 1/2.75) {
     return 7.5625*t*t
   } else if (t < (2/2.75)) {

@@ -89,11 +89,15 @@ em {
 }
 
 code {
-  padding: 8px;
+  padding: 0.25em;
   border: 2px solid darkslateblue;
   background-color: midnightblue;
   color: gold;
   border-radius: 4px;
+
+  &.snippet {
+    font-size: 1.6vh;
+  }
 }
 
 p {
@@ -203,7 +207,7 @@ p {
 }
 
 .bio {
-  margin: 80px auto;
+  margin: 3em auto;
   font-size: 80%;
   font-family: courier, monospace;
   color: lightgray;
@@ -214,8 +218,8 @@ p {
     font-family: Avenir;
   }
 
-  th { width: 50%; text-align: right; padding: 5px; color: honeydew; }
-  td { width: 50%; text-align: left; padding: 5px; }
+  th { width: 50%; text-align: right; padding: 0.3em; color: honeydew; }
+  td { width: 50%; text-align: left; padding: 0.3em; }
 }
 
 .remote-cta {
