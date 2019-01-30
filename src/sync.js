@@ -2,6 +2,7 @@ import * as slideshow from './slideshow'
 
 const syncHost = 'sync-slide.herokuapp.com'
 
+let pictureInPicture = document.createElement('iframe')
 let presenterToken = null
 let socket, pingInterval
 
@@ -16,6 +17,9 @@ function sendUpdate ({ state }) {
 }
 
 export const init = () => {
+  pictureInPicture.src = location.href
+  document.querySelector('#sync').appendChild(pictureInPicture)
+
   socket = new WebSocket(`wss://${syncHost}/topics/threejs-animation-slides`)
 
   socket.onopen = () => {
@@ -47,6 +51,8 @@ export const presenter = () => {
 
   if (token) {
     presenterToken = token
+    pictureInPicture.parentNode.removeChild(pictureInPicture)
+
     sendUpdate({ state: slideshow.state }).then(res => {
       if (!res.ok) {
         return res.text().then(err => {
