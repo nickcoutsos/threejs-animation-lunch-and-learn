@@ -17,15 +17,16 @@ function sendUpdate ({ state }) {
 }
 
 export const init = () => {
-  pictureInPicture.src = location.href
-  document.querySelector('#sync').appendChild(pictureInPicture)
+  const url = new URL(location.href)
 
-  socket = new WebSocket(`wss://${syncHost}/topics/threejs-animation-slides`)
-
-  socket.onopen = () => {
-    console.log(new Date(), 'connected to topic')
+  if (!url.searchParams.has('isPictureInPicture')) {
+    url.searchParams.set('isPictureInPicture', 'true')
+    pictureInPicture.src = url.toString()
+    document.querySelector('#sync').appendChild(pictureInPicture)
   }
 
+  socket = new WebSocket(`wss://${syncHost}/topics/threejs-animation-slides`)
+  socket.onopen = () => console.log(new Date(), 'connected to topic')
   socket.onmessage = (message) => {
     console.log(new Date(), 'message received', message.data)
     const newState = JSON.parse(message.data)
