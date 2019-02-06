@@ -94,6 +94,7 @@ export const fragments = {
       )
 
       for (let i = 0; i < tweenCount; i++) {
+        tweenedPositions.children[i].visible = false
         tweenedScales.children[i].visible = t === 0
         tweenedRotations.children[i].visible = (i / tweenCount) < t
       }

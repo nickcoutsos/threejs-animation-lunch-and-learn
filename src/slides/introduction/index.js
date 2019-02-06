@@ -32,12 +32,15 @@ export const fragments = {
   },
   grid: {
     animation: animation(t => {
+      box.visible = true
       grid.visible = axes.visible = t > .5
       viewer.renderFrame()
     }, 0)
   },
   choppy: {
     animation: animation(t => {
+      box.visible = true
+      grid.visible = axes.visible = true
       box.position.x = Math.round(t * 5) + (t > .5 ? -5 : 0)
       viewer.renderFrame()
     }, {
@@ -51,6 +54,8 @@ export const fragments = {
   },
   smoother: {
     animation: animation(t => {
+      box.visible = true
+      grid.visible = axes.visible = true
       box.position.x = Math.round(t * 5 * 2) / 2 + (t > .5 ? -5 : 0)
       viewer.renderFrame()
     }, {

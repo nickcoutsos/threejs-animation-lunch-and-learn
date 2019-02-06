@@ -1,32 +1,35 @@
+import { Object3D } from 'three'
 import * as components from './components'
 import * as viewer from '../../viewer'
 import animation from '../../animation'
 
-components.opacityTweenGroup.visible = false
+const wrapper = new Object3D()
+wrapper.visible = false
+components.opacityTweenGroup.visible = true
 components.rgbTweenGroup.visible = false
 components.hslTweenGroup.visible = false
 
-viewer.scene.add(
+viewer.scene.add(wrapper)
+wrapper.add(
   components.opacityTweenGroup,
   components.rgbTweenGroup,
   components.hslTweenGroup
 )
 
 export const activate = () => {
-  components.opacityTweenGroup.visible = true
+  wrapper.visible = true
   viewer.renderFrame()
 }
 
 export const deactivate = () => {
-  components.opacityTweenGroup.visible = false
-  components.rgbTweenGroup.visible = false
-  components.hslTweenGroup.visible = false
+  wrapper.visible = false
   viewer.renderFrame()
 }
 
 export const fragments = {
   tweenOpacity: {
     animation: animation(t => {
+      components.opacityTweenGroup.visible = true
       const steps = components.opacityTweenSteps.children
 
       for (let i = 0; i < steps.length; i++) {
@@ -49,7 +52,8 @@ export const fragments = {
   tweenColourRGB: {
     animation: animation(t => {
       const steps = components.rgbTweenSteps.children
-
+      components.opacityTweenGroup.visible = false
+      components.rgbTweenGroup.visible = true
       for (let i = 0; i < steps.length; i++) {
         steps[i].visible = (i + 1) / steps.length <= t
       }
@@ -64,6 +68,7 @@ export const fragments = {
     animation: animation(t => {
       const steps = components.hslTweenSteps.children
 
+      components.opacityTweenGroup.visible = false
       components.rgbTweenGroup.visible = t === 0
       components.hslTweenGroup.visible = t > 0
 
