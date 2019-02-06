@@ -6,12 +6,6 @@
   </head>
   <body>
     <section class="slide">
-      <div class="center">
-        <h1>Welcome</h1>
-      </div>
-    </section>
-
-    <section class="slide">
       <h1 style="text-align: center">WebGL Animation With three.js</h1>
 
       <table class="bio">
@@ -28,11 +22,6 @@
     </section>
 
     <section class="slide" data-slide="introduction">
-      <!--
-        TODO: introduce self.
-        why am *I* doing this presentation.
-        why am I doing *this* presentation
-      -->
       <section class="top-right">
         <h2>Introduction</h2>
         <ul>
@@ -175,6 +164,24 @@
     </section>
 
     <section class="slide">
+      <h2>Rendering</h2>
+
+<pre style="display: inline-block;"><code style="display: block; font-size: 80%;" class="microlight snippet">const start = performance.now()
+const duration = 5000
+
+function renderFrame(now) {
+  const delta = now - start
+  const t = delta / duration
+
+  myAnimation(t)
+
+  if (delta &lt;= duration) {
+    requestAnimationFrame(renderFrame)
+  }
+}</code></pre>
+    </section>
+
+    <section class="slide">
       <h2>Timing functions</h2>
       <p>Now our animated properties are functions of time.</p>
       <p class="fragment">A timing function:</p>
@@ -245,15 +252,9 @@
         <li>scenegraph-based rendering engine</li>
         <li>math math math math math math math math</li>
       </ul>
-      <!--
-        talk about the design/popularity of the library, the use of 'examples'
-        for code that should be packaged as modules, and aiming for quick setup
-        over packaging.
-      -->
     </section>
 
     <section class="slide">
-      <!-- todo: maybe replace this text with a tree visual of the scene graph -->
       <h2><code>Object3D</code>s all the way down</h2>
       <p>The scene graph is a hierarchy of objects</p>
       <ul>
@@ -282,8 +283,6 @@
           rotating child faces around this origin acts like a hinge
         </li>
       </ul>
-      <!-- talk about regular polyhedra, dihedral angle -->
-      <!-- talk about creating object hierarchy in a tool instead of programmatically -->
     </section>
 
     <section class="slide" data-slide="exampleKeyboardMorph">
@@ -327,6 +326,10 @@
           Amplify the results
         </li>
       </ul>
+    </section>
+
+    <section class="slide">
+      <h1 class="center">Q &amp; A</h1>
     </section>
 
     <div id="app"></div>
