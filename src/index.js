@@ -111,7 +111,6 @@ document.querySelector('#menu [name="close"]').addEventListener('click', () => {
 })
 
 document.querySelector('#sync').addEventListener('click', () => {
-  slideshow.setState({ usePresenterState: true })
   slideshow.seekTo(slideshow.state.presenterState)
 })
 

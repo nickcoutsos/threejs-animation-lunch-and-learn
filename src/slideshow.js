@@ -87,9 +87,12 @@ export const prev = () => {
 }
 
 export const seekTo = (targetState) => {
-  setState({ durationOverride: 100 })
   const advance = targetState.absolute > state.absolute ? next : prev
-  const interval = setInterval(() => {
+  if (state.seekingInterval) {
+    clearInterval(state.seekingInterval)
+  }
+
+  setState({ durationOverride: 100, seekingInterval: setInterval(() => {
     console.log('tick', targetState.absolute, state.absolute)
     if (Math.abs(targetState.absolute - state.absolute) <= 1) {
       console.log('catching up, clear override')
@@ -97,13 +100,18 @@ export const seekTo = (targetState) => {
     }
     if (state.absolute === targetState.absolute) {
       console.log('last one, clear interval')
-      clearInterval(interval)
+      clearInterval(state.seekingInterval)
+      setState({
+        seekingInterval: null,
+        usePresenterState: true
+      })
       return
     }
 
     console.log('advance')
     advance()
   }, 120)
+ })
 }
 
 const emitSlideChange = () => {
