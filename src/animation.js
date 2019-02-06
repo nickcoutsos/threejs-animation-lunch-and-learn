@@ -54,9 +54,12 @@ export default function (frame, options = {}) {
     active_ = requestAnimationFrame(animate)
   }
 
-  function stop () {
+  function stop ({ playEnd = false } = {}) {
     start_ = undefined
     cancelAnimationFrame(active_)
+    if (playEnd) {
+      frame(direction === 1 ? 1 : 0)
+    }
     active_ = null
   }
 
@@ -92,6 +95,7 @@ export default function (frame, options = {}) {
   return {
     start,
     stop,
-    reverse
+    reverse,
+    frame
   }
 }

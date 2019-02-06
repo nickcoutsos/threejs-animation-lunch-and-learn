@@ -26,8 +26,11 @@ function toggleFullScreen() {
 }
 
 slideshow.events.on('slidechanged', ({ previousSlide, slide, state }) => {
+  const slideDetails = get(slides, slide.dataset.slide)
+  const rollback = state.previousSlide > state.slide
+
   if (activeAnimation) {
-    activeAnimation.stop()
+    activeAnimation.stop({ playEnd: true })
   }
 
   const prevSlideName = previousSlide && previousSlide.dataset.slide
@@ -56,7 +59,7 @@ slideshow.events.on('fragmentchanged', ({ slide, state, fragment, previousFragme
   }
 
   if (activeAnimation && fragmentAnimation !== activeAnimation) {
-    activeAnimation.stop()
+    activeAnimation.stop({ playEnd: true })
   }
 
   activeAnimation = fragmentAnimation
