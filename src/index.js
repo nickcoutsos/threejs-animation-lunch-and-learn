@@ -25,9 +25,23 @@ function toggleFullScreen() {
   }
 }
 
+function progress () {
+  const meter = document.querySelector('#meter')
+  const totalLength = (
+    document.querySelectorAll('.slide').length +
+    document.querySelectorAll('.fragment').length
+  )
+
+  return function setProgress (index) {
+    const progressBarWidth = index / (totalLength - 1) * 100
+    meter.style.width = `${progressBarWidth}vw`
+  }
+}
+
+const setProgress = progress()
+
 slideshow.events.on('slidechanged', ({ previousSlide, slide, state }) => {
-  const slideDetails = get(slides, slide.dataset.slide)
-  const rollback = state.previousSlide > state.slide
+  setProgress(state.absolute)
 
   if (activeAnimation) {
     activeAnimation.stop({ playEnd: true })
@@ -45,6 +59,8 @@ slideshow.events.on('slidechanged', ({ previousSlide, slide, state }) => {
 })
 
 slideshow.events.on('fragmentchanged', ({ slide, state, fragment, previousFragment }) => {
+  setProgress(state.absolute)
+
   const slideDetails = get(slides, slide.dataset.slide)
   const rollback = state.previousFragment > state.fragment
   const fragmentElement = rollback ? previousFragment : fragment

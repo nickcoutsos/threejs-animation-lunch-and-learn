@@ -258,3 +258,20 @@ p {
 [data-is-presenter="true"] .remote-cta {
   visibility: visible;
 }
+
+#slideshow-progress {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100vw;
+	height: 3px;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+#slideshow-progress #meter {
+  position: relative;
+	display: block;
+	height: 3px;
+	width: 0;
+	background-color: white;
+	transition: width 100ms  ease-in;
+}
